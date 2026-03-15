@@ -11,12 +11,9 @@ import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import { Check } from "lucide-react";
 
 const serviceImages: Record<string, string> = {
-  weddings:
-    "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=85",
-  portraits:
-    "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=800&q=85",
-  commercial:
-    "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=85",
+  weddings: "/images/Events/0Y0A3014.jpeg",
+  portraits: "/images/family/0Y0A0364.jpeg",
+  commercial: "/images/pregnancy/0Y0A3368.jpeg",
 };
 
 export function ServicesSection() {

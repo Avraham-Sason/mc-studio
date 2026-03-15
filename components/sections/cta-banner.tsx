@@ -14,7 +14,7 @@ export function CTABanner() {
       className="relative overflow-hidden bg-cover bg-center py-20 lg:py-28"
       style={{
         backgroundImage:
-          "url('https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=1920&q=80')",
+          "url('/images/marriage_proposal/0Y0A1685.jpeg')",
       }}
       aria-label="Call to action"
     >

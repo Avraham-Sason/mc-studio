@@ -4,7 +4,7 @@
     {
       "name": "mc-studio-dev",
       "runtimeExecutable": "node",
-      "runtimeArgs": ["start-dev.js", "dev", "--port", "3457"],
+      "runtimeArgs": ["node_modules/next/dist/bin/next", "dev", "--port", "3457"],
       "port": 3457
     }
   ]

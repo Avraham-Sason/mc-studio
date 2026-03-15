@@ -328,12 +328,14 @@
   },
   "portfolio": {
     "title": "כל תמונה מספרת סיפור",
-    "subtitle": "צפו בעבודות שלנו בחתונות, פורטרטים וצילום מסחרי",
+    "subtitle": "צפו בעבודות שלנו באירועים, משפחה, הריון, גילוי מין והצעות נישואים",
     "categories": {
       "all": "הכל",
-      "weddings": "חתונות",
-      "portraits": "פורטרטים",
-      "commercial": "מסחרי"
+      "events": "אירועים",
+      "family": "משפחה",
+      "gender_reveal": "גילוי מין",
+      "marriage_proposal": "הצעות נישואים",
+      "pregnancy": "הריון"
     },
     "viewGallery": "צפו בגלריה",
     "imageCount": "{count} תמונות"

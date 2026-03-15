@@ -328,12 +328,14 @@
   },
   "portfolio": {
     "title": "Every Image Tells a Story",
-    "subtitle": "Browse our work across weddings, portraits, and commercial photography",
+    "subtitle": "Browse our work across events, family, pregnancy, gender reveal, and marriage proposals",
     "categories": {
       "all": "All",
-      "weddings": "Weddings",
-      "portraits": "Portraits",
-      "commercial": "Commercial"
+      "events": "Events",
+      "family": "Family",
+      "gender_reveal": "Gender Reveal",
+      "marriage_proposal": "Marriage Proposal",
+      "pregnancy": "Pregnancy"
     },
     "viewGallery": "View Gallery",
     "imageCount": "{count} photos"

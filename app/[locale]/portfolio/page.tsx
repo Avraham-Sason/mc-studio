@@ -4,7 +4,7 @@ import { useTranslations, useLocale } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import { GalleryGrid } from "@/components/gallery/gallery-grid";
 import { CategoryFilter } from "@/components/gallery/category-filter";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
@@ -16,19 +16,24 @@ import {
 
 const categoryCards = [
   {
-    id: "weddings" as const,
-    image:
-      "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=85",
+    id: "events" as const,
+    image: "/images/Events/0Y0A3014.jpeg",
   },
   {
-    id: "portraits" as const,
-    image:
-      "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=800&q=85",
+    id: "family" as const,
+    image: "/images/family/0Y0A0364.jpeg",
   },
   {
-    id: "commercial" as const,
-    image:
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=85",
+    id: "gender_reveal" as const,
+    image: "/images/gender_reveal/0Y0A0069.jpeg",
+  },
+  {
+    id: "marriage_proposal" as const,
+    image: "/images/marriage_proposal/0Y0A1685.jpeg",
+  },
+  {
+    id: "pregnancy" as const,
+    image: "/images/pregnancy/0Y0A3368.jpeg",
   },
 ];
 
@@ -39,16 +44,18 @@ export default function PortfolioPage() {
 
   const categories = [
     { value: "all", label: t("categories.all") },
-    { value: "weddings", label: t("categories.weddings") },
-    { value: "portraits", label: t("categories.portraits") },
-    { value: "commercial", label: t("categories.commercial") },
+    { value: "events", label: t("categories.events") },
+    { value: "family", label: t("categories.family") },
+    { value: "gender_reveal", label: t("categories.gender_reveal") },
+    { value: "marriage_proposal", label: t("categories.marriage_proposal") },
+    { value: "pregnancy", label: t("categories.pregnancy") },
   ];
 
   const filteredImages =
     activeCategory === "all"
       ? portfolioImages
       : getImagesByCategory(
-          activeCategory as "weddings" | "portraits" | "commercial"
+          activeCategory as "events" | "family" | "gender_reveal" | "marriage_proposal" | "pregnancy"
         );
 
   return (
@@ -67,7 +74,7 @@ export default function PortfolioPage() {
 
       {/* Category Cards */}
       <SectionWrapper>
-        <div className="grid gap-6 sm:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
           {categoryCards.map((cat) => (
             <ScrollReveal key={cat.id}>
               <Link href={`/${locale}/portfolio/${cat.id}`}>
@@ -78,7 +85,7 @@ export default function PortfolioPage() {
                       alt={t(`categories.${cat.id}`)}
                       fill
                       className="object-cover transition-transform duration-300 group-hover:scale-105"
-                      sizes="(max-width: 640px) 100vw, 33vw"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 20vw"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                     <div className="absolute bottom-0 p-4">
