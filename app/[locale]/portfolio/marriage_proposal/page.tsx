@@ -1,20 +1,21 @@
-"use client";
-
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import { GalleryGrid } from "@/components/gallery/gallery-grid";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
-import { getImagesByCategory } from "@/lib/portfolio-data";
+import { getImagesByCategory } from "@/lib/get-portfolio-images";
 
-export default function MarriageProposalGalleryPage() {
-  const t = useTranslations("portfolio");
+export const dynamic = "force-dynamic";
+
+export default async function MarriageProposalGalleryPage() {
+  const t = await getTranslations("portfolio");
   const images = getImagesByCategory("marriage_proposal");
+  const heroSrc = images[0]?.src ?? "/images/marriage_proposal/0Y0A1685.jpeg";
 
   return (
     <>
       <div className="relative py-20 lg:py-28 overflow-hidden">
         <Image
-          src="/images/marriage_proposal/0Y0A1685.jpeg"
+          src={heroSrc}
           alt={t("categories.marriage_proposal")}
           fill
           className="object-cover"

@@ -6,7 +6,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
-import { getFeaturedImages } from "@/lib/portfolio-data";
+import type { PortfolioImage } from "@/lib/portfolio-data";
 
 const categoryLabels: Record<string, { en: string; he: string }> = {
   events: { en: "Events", he: "אירועים" },
@@ -16,10 +16,9 @@ const categoryLabels: Record<string, { en: string; he: string }> = {
   pregnancy: { en: "Pregnancy", he: "הריון" },
 };
 
-export function PortfolioPreview() {
+export function PortfolioPreview({ images }: { images: PortfolioImage[] }) {
   const t = useTranslations("portfolioPreview");
   const locale = useLocale();
-  const images = getFeaturedImages();
 
   return (
     <SectionWrapper id="portfolio">

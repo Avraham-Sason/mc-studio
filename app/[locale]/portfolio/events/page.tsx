@@ -1,20 +1,21 @@
-"use client";
-
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import { GalleryGrid } from "@/components/gallery/gallery-grid";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
-import { getImagesByCategory } from "@/lib/portfolio-data";
+import { getImagesByCategory } from "@/lib/get-portfolio-images";
 
-export default function EventsGalleryPage() {
-  const t = useTranslations("portfolio");
+export const dynamic = "force-dynamic";
+
+export default async function EventsGalleryPage() {
+  const t = await getTranslations("portfolio");
   const images = getImagesByCategory("events");
+  const heroSrc = images[0]?.src ?? "/images/Events/0Y0A3014.jpeg";
 
   return (
     <>
       <div className="relative py-20 lg:py-28 overflow-hidden">
         <Image
-          src="/images/Events/0Y0A3014.jpeg"
+          src={heroSrc}
           alt={t("categories.events")}
           fill
           className="object-cover"

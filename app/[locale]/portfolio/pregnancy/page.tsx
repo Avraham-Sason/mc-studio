@@ -1,20 +1,21 @@
-"use client";
-
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import { GalleryGrid } from "@/components/gallery/gallery-grid";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
-import { getImagesByCategory } from "@/lib/portfolio-data";
+import { getImagesByCategory } from "@/lib/get-portfolio-images";
 
-export default function PregnancyGalleryPage() {
-  const t = useTranslations("portfolio");
+export const dynamic = "force-dynamic";
+
+export default async function PregnancyGalleryPage() {
+  const t = await getTranslations("portfolio");
   const images = getImagesByCategory("pregnancy");
+  const heroSrc = images[0]?.src ?? "/images/pregnancy/0Y0A3368.jpeg";
 
   return (
     <>
       <div className="relative py-20 lg:py-28 overflow-hidden">
         <Image
-          src="/images/pregnancy/0Y0A3368.jpeg"
+          src={heroSrc}
           alt={t("categories.pregnancy")}
           fill
           className="object-cover"

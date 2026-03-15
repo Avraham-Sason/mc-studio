@@ -7,16 +7,19 @@ import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { heroSlides } from "@/lib/portfolio-data";
+interface HeroSlide {
+  src: string;
+  alt: { en: string; he: string };
+}
 
-export function HeroSection() {
+export function HeroSection({ slides }: { slides: HeroSlide[] }) {
   const t = useTranslations("hero");
   const locale = useLocale();
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const nextSlide = useCallback(() => {
-    setCurrentSlide((prev) => (prev + 1) % heroSlides.length);
-  }, []);
+    setCurrentSlide((prev) => (prev + 1) % slides.length);
+  }, [slides.length]);
 
   useEffect(() => {
     const interval = setInterval(nextSlide, 4000);
@@ -36,8 +39,8 @@ export function HeroSection() {
           className="absolute inset-0"
         >
           <Image
-            src={heroSlides[currentSlide].src}
-            alt={heroSlides[currentSlide].alt[locale as "en" | "he"]}
+            src={slides[currentSlide].src}
+            alt={slides[currentSlide].alt[locale as "en" | "he"]}
             fill
             className="object-cover"
             priority={currentSlide < 2}
@@ -111,7 +114,7 @@ export function HeroSection() {
 
       {/* Slide indicators */}
       <div className="absolute bottom-6 start-1/2 z-10 flex -translate-x-1/2 gap-2">
-        {heroSlides.map((_, i) => (
+        {slides.map((_, i) => (
           <button
             key={i}
             onClick={() => setCurrentSlide(i)}

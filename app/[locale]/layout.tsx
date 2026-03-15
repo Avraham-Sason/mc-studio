@@ -52,7 +52,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} dir={dir} suppressHydrationWarning>
-      <body className={`${fontClass} antialiased`}>
+      <body className={`${fontClass} antialiased`} dir={dir}>
         <ThemeProvider>
           <NextIntlClientProvider locale={locale} messages={messages}>
             <Navbar />

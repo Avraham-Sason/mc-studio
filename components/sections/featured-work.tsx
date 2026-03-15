@@ -6,11 +6,27 @@ import Link from "next/link";
 import { Quote } from "lucide-react";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
-import { featuredProjects } from "@/lib/portfolio-data";
+import { featuredProjectsMeta } from "@/lib/portfolio-data";
 
-export function FeaturedWork() {
+interface FeaturedProject {
+  category: string;
+  title: { en: string; he: string };
+  eventType: { en: string; he: string };
+  location: { en: string; he: string };
+  description: { en: string; he: string };
+  clientQuote: { en: string; he: string };
+  clientName: { en: string; he: string };
+  images: string[];
+}
+
+export function FeaturedWork({ projectImages }: { projectImages: Record<string, string[]> }) {
   const t = useTranslations("featuredWork");
   const locale = useLocale() as "en" | "he";
+
+  const projects: FeaturedProject[] = featuredProjectsMeta.map((p) => ({
+    ...p,
+    images: projectImages[p.category] ?? [],
+  }));
 
   return (
     <SectionWrapper id="featured-work">
@@ -25,7 +41,7 @@ export function FeaturedWork() {
         </div>
       </ScrollReveal>
 
-      {featuredProjects.map((project, i) => (
+      {projects.map((project, i) => (
         <ScrollReveal key={i}>
           <div className="mt-12 overflow-hidden rounded-2xl bg-card shadow-lg">
             {/* Image grid */}

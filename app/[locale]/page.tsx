@@ -1,5 +1,10 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import {
+  getHeroSlides,
+  getFeaturedImages,
+  getCategoryImages,
+} from "@/lib/get-portfolio-images";
 import { HeroSection } from "@/components/sections/hero-section";
 import { PortfolioPreview } from "@/components/sections/portfolio-preview";
 import { WhyUsSection } from "@/components/sections/why-us-section";
@@ -69,19 +74,23 @@ export default async function HomePage({
 }) {
   const { locale } = await params;
 
+  const heroSlides = getHeroSlides();
+  const featuredImages = getFeaturedImages();
+  const projectImages = { events: getCategoryImages("events", 4) };
+
   return (
     <>
       <LocalBusinessJsonLd locale={locale} />
       <ServicesJsonLd />
       <WebSiteJsonLd />
-      <HeroSection />
-      <PortfolioPreview />
+      <HeroSection slides={heroSlides} />
+      <PortfolioPreview images={featuredImages} />
       <WhyUsSection />
       <ServicesSection />
       <StatsBar />
       <TestimonialsSection />
       <ProcessSection />
-      <FeaturedWork />
+      <FeaturedWork projectImages={projectImages} />
       <PricingSection />
       <FAQSection />
       <CTABanner />
