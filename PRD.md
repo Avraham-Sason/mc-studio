@@ -857,7 +857,7 @@ export const animations = {
 
 | Page | Template |
 |------|----------|
-| Homepage (HE) | MC Studio — צילום מקצועי בכל הארץ. חתונות, פורטרטים, צילום מסחרי. ללא פשרות, תוצאות מדהימות. |
+| Homepage (HE) | MC Studio — צילום מקצועי בכל הארץ. חתונות, סטילס, צילום מסחרי. ללא פשרות, תוצאות מדהימות. |
 | Homepage (EN) | MC Studio — Professional photography across Israel. Weddings, portraits, commercial. Zero compromises, stunning results. |
 | Portfolio (EN) | Browse MC Studio's portfolio — stunning wedding, portrait, and commercial photography from across Israel. |
 | Contact (EN) | Book your session with MC Studio. Get a custom quote within 24 hours. Professional photography anywhere in Israel. |
