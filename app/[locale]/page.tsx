@@ -20,6 +20,7 @@ import {
   LocalBusinessJsonLd,
   ServicesJsonLd,
   WebSiteJsonLd,
+  ReviewsJsonLd,
 } from "@/components/seo/json-ld";
 
 export async function generateMetadata({
@@ -81,8 +82,9 @@ export default async function HomePage({
   return (
     <>
       <LocalBusinessJsonLd locale={locale} />
-      <ServicesJsonLd />
+      <ServicesJsonLd locale={locale} />
       <WebSiteJsonLd />
+      <ReviewsJsonLd locale={locale} />
       <HeroSection slides={heroSlides} />
       <PortfolioPreview images={featuredImages} />
       <WhyUsSection />

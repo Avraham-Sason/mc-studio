@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find \"C:\\\\work\\\\personal\\\\MC Studio/components/layout\" -type f -name \"*.tsx\" -exec head -30 {} +)"
+    ]
+  }
+}

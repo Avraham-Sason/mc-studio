@@ -56,14 +56,14 @@
     ]
   },
   "services": {
-    "title": "Our Services",
-    "subtitle": "Professional photography for every moment that matters",
+    "title": "Professional Photography Services",
+    "subtitle": "Professional photographer for events, Brit Milah, families, portraits & headshots — serving Petah Tikva, Elad, Rosh HaAyin & central Israel",
     "items": [
       {
         "id": "events",
-        "title": "Events",
-        "tagline": "Your love story deserves more than snapshots",
-        "description": "We capture the real, raw, beautiful moments of your special day — from the nervous butterflies to the last dance.",
+        "title": "Event Photography",
+        "tagline": "Professional event photographer — every moment captured perfectly",
+        "description": "Professional photographer for small events, private celebrations, Bar Mitzvah, Bat Mitzvah, birthdays, and parties. Event photography in Petah Tikva, Elad, Rosh HaAyin, Bnei Brak, Ramat Gan, and all of central Israel.",
         "features": [
           "Full-day coverage (up to 12 hours)",
           "Engagement / pre-event session",
@@ -74,13 +74,27 @@
         "cta": "Book Your Event"
       },
       {
+        "id": "brit",
+        "title": "Brit Milah Photography",
+        "tagline": "Recommended Brit photographer — capturing your most precious moments",
+        "description": "Professional Brit Milah photography at venues and homes. Recommended Brit photographer in Petah Tikva, Elad, Rosh HaAyin, Bnei Brak, Givat Shmuel, Ramat Gan, and all of central Israel.",
+        "features": [
+          "Venue or home Brit photography",
+          "Ceremony and celebration coverage",
+          "200+ professionally edited images",
+          "Online gallery for download and sharing",
+          "Designed digital album"
+        ],
+        "cta": "Book Brit Photographer"
+      },
+      {
         "id": "portraits",
-        "title": "Portraits",
-        "tagline": "See yourself the way your loved ones see you",
-        "description": "Family portraits, pregnancy sessions, professional headshots — we create images that capture who you truly are.",
+        "title": "Family & Portrait Photography",
+        "tagline": "Recommended family photographer — photos you'll treasure forever",
+        "description": "Family photography outdoors and in studio, pregnancy photography, professional portrait photography, business headshots, and professional profile photos. Professional family photographer in Petah Tikva, Elad, Rosh HaAyin, and central Israel.",
         "features": [
           "1–2 hour styled session",
-          "Indoor studio or outdoor location",
+          "Professional studio or outdoor location",
           "30+ retouched images",
           "Multiple outfit changes",
           "Print-ready high-resolution files"
@@ -89,9 +103,9 @@
       },
       {
         "id": "commercial",
-        "title": "Commercial & Product",
-        "tagline": "Products that look as good as they perform",
-        "description": "High-quality product photography, brand visuals, and commercial imagery that drives sales and builds brand trust.",
+        "title": "Commercial & Product Photography",
+        "tagline": "Professional studio photography — products that look as good as they perform",
+        "description": "High-quality product photography, professional business headshots, brand visuals, and commercial imagery that drives sales and builds brand trust.",
         "features": [
           "Product photography (flat lay, lifestyle, packshot)",
           "Brand identity visuals",
@@ -272,25 +286,25 @@
     }
   },
   "about": {
-    "title": "About MC Studio",
-    "subtitle": "The story behind the lens",
+    "title": "About MC Studio — Moshe Chaim Cohen Photography",
+    "subtitle": "Professional photographer based in Petah Tikva — the story behind the lens",
     "bio": [
-      "MC Studio was founded with a simple belief: every moment deserves to be captured perfectly.",
-      "We're not a photography factory — we're a boutique studio that gives every project our full creative attention.",
-      "Our approach combines technical excellence with genuine human connection, because the best photos happen when people feel comfortable and free to be themselves."
+      "MC Studio was founded by Moshe Chaim Cohen, a professional photographer based in Petah Tikva, with a simple belief: every moment deserves to be captured perfectly.",
+      "We're not a photography factory — we're a boutique studio that gives every project our full creative attention. Whether it's Brit Milah photography, family portraits in nature, small event photography, or professional headshots — we bring the same level of commitment.",
+      "Our approach combines technical excellence with genuine human connection. We serve clients across Petah Tikva, Elad, Rosh HaAyin, Bnei Brak, Ramat Gan, Givat Shmuel, and all of central Israel — because the best photos happen when people feel comfortable and free to be themselves."
     ],
     "values": [
       {
         "title": "Perfection, Not Compromise",
-        "description": "We don't deliver 'good enough.' Every image is edited, refined, and perfected until it meets our standards — and yours."
+        "description": "We don't deliver 'good enough.' Every image is edited, refined, and perfected until it meets our standards — and yours. Recommended photographer with 100% client satisfaction."
       },
       {
         "title": "People First",
-        "description": "Behind every lens is a human connection. We take the time to understand your story, your style, and your vision."
+        "description": "Behind every lens is a human connection. We take the time to understand your story, your style, and your vision — whether it's a Brit Milah, family portrait, or professional headshot."
       },
       {
-        "title": "Anywhere, Anytime",
-        "description": "Your perfect location shouldn't be limited by geography. We travel anywhere in Israel to capture your moments."
+        "title": "Anywhere in Central Israel",
+        "description": "From Petah Tikva to Rosh HaAyin, from Elad to Ramat Gan — we come to you. A professional event photographer who travels to your location."
       }
     ]
   },
@@ -341,20 +355,46 @@
   },
   "seo": {
     "home": {
-      "title": "MC Studio — Professional Photography Across Israel",
-      "description": "MC Studio — Professional photography across Israel. Events, portraits, commercial. Zero compromises, stunning results."
+      "title": "MC Studio | Professional Event & Family Photographer | Petah Tikva, Israel",
+      "description": "MC Studio — Professional photographer in Israel. Event photography, Brit Milah photographer, family portraits, studio photography. Serving Petah Tikva, Elad, Rosh HaAyin, Bnei Brak, and central Israel. Zero compromises, stunning results."
     },
     "portfolio": {
-      "title": "Portfolio — MC Studio Photography",
-      "description": "Browse MC Studio's stunning portfolio — event, portrait, and commercial photography from across Israel."
+      "title": "Photography Portfolio — Events, Brit Milah & Family | MC Studio",
+      "description": "Browse MC Studio's portfolio — professional event photography, Brit Milah photography, family portraits, and studio photography from across Israel."
     },
     "contact": {
-      "title": "Book Your Session — MC Studio",
-      "description": "Book your photography session with MC Studio. Get a custom quote within 24 hours."
+      "title": "Book a Professional Photographer | MC Studio — Free Quote in 24h",
+      "description": "Book a professional photographer for events, Brit Milah, family portraits, and commercial photography. MC Studio — serving Petah Tikva, Elad, Rosh HaAyin, and central Israel."
     },
     "about": {
-      "title": "About MC Studio — Our Story",
-      "description": "Learn about MC Studio — the premium photography studio behind the lens."
+      "title": "About MC Studio — Moshe Chaim Cohen, Professional Photographer | Israel",
+      "description": "Meet Moshe Chaim Cohen — professional photographer based in Petah Tikva, Israel. MC Studio specializes in event photography, Brit Milah, family portraits, and commercial photography."
+    },
+    "categories": {
+      "events": {
+        "title": "Event Photography — Professional Event Photographer | MC Studio Israel",
+        "description": "Professional event photographer in Israel. Small events, private events, family celebrations. MC Studio — recommended event photographer in Petah Tikva, Elad, Rosh HaAyin, and central Israel."
+      },
+      "family": {
+        "title": "Family Photography — Professional Family Photographer | MC Studio",
+        "description": "Professional family photographer — indoor studio and outdoor nature sessions. Family photography in Petah Tikva, Elad, Rosh HaAyin, and central Israel. MC Studio."
+      },
+      "gender_reveal": {
+        "title": "Gender Reveal Photography | MC Studio — Professional Photographer Israel",
+        "description": "Professional gender reveal photography. MC Studio — recommended photographer for family celebrations in Petah Tikva, Elad, Rosh HaAyin, and central Israel."
+      },
+      "marriage_proposal": {
+        "title": "Marriage Proposal Photography | MC Studio — Professional Photographer Israel",
+        "description": "Professional marriage proposal photography. MC Studio — discreet, professional photographer for capturing your perfect proposal moment across Israel."
+      },
+      "pregnancy": {
+        "title": "Pregnancy & Maternity Photography | MC Studio — Professional Photographer",
+        "description": "Professional pregnancy and maternity photography in studio and outdoors. MC Studio — recommended maternity photographer in Petah Tikva, Elad, Rosh HaAyin, and central Israel."
+      },
+      "purim": {
+        "title": "Purim Event Photography | MC Studio — Professional Photographer Israel",
+        "description": "Professional Purim event photography — costumes, family fun, and celebrations. MC Studio — event photographer in Petah Tikva, Elad, and central Israel."
+      }
     }
   },
   "portfolio": {

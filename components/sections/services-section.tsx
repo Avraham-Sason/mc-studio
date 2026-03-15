@@ -12,6 +12,7 @@ import { Check } from "lucide-react";
 
 const serviceImages: Record<string, string> = {
   events: "/images/Events/0Y0A3014.jpeg",
+  brit: "/images/Events/0Y0A3268.jpeg",
   portraits: "/images/family/0Y0A0364.jpeg",
   commercial: "/images/pregnancy/0Y0A3368.jpeg",
 };
@@ -21,7 +22,8 @@ export function ServicesSection() {
   const locale = useLocale();
   const [activeTab, setActiveTab] = useState(0);
 
-  const items = [0, 1, 2].map((i) => ({
+  const itemCount = 4;
+  const items = Array.from({ length: itemCount }, (_, i) => i).map((i) => ({
     id: t(`items.${i}.id`),
     title: t(`items.${i}.title`),
     tagline: t(`items.${i}.tagline`),

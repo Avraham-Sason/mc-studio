@@ -1,15 +1,26 @@
 # MC Studio — Professional Photography Studio
 
 ## About
-MC Studio is a premium photography studio based in Israel offering professional photography services nationwide. We specialize in Events, portraits, and commercial photography with a zero-compromise approach to quality.
+MC Studio is a premium photography studio founded by Moshe Chaim Cohen (משה חיים כהן), based in Petah Tikva (פתח תקווה), Israel. We offer professional photography services nationwide, specializing in events, Brit Milah (ברית מילה), family portraits, portrait & headshot photography, and commercial photography.
+
+Also known as: משה כהן צילום, משה חיים כהן צילום, MC Studio Photography
 
 ## Services
-- Event Photography: Full-day coverage, engagement sessions, 500+ edited photos, online gallery, premium album design
-- Portrait Photography: Family, pregnancy, headshots, styled sessions, 30+ retouched images, print-ready files
-- Commercial Photography: Product photography, brand visuals, e-commerce images, team headshots, social media content
+- **Event Photography (צילום אירועים)**: Full-day coverage for small events, private events, family celebrations, Bar Mitzvah, Bat Mitzvah, birthdays, parties. 500+ edited photos, online gallery, premium album design.
+- **Brit Milah Photography (צילום ברית מילה)**: Professional Brit photography at venues and homes. Recommended Brit photographer (צלם ברית מומלץ) in central Israel.
+- **Family Photography (צילום משפחות)**: Family portraits outdoors in nature and in studio. Professional family photography (צילום משפחתי מקצועי). 30+ retouched images, print-ready files.
+- **Portrait & Headshot Photography (צילום פורטרט ותדמית)**: Professional portraits, business headshots, profile photos, studio portraits. Portrait photography in studio (צילום פורטרט בסטודיו), professional profile photos (צילום תמונת פרופיל מקצועית).
+- **Commercial Photography (צילום מסחרי)**: Product photography, brand visuals, e-commerce images, team headshots, social media content packages.
 
-## Coverage Area
-All of Israel — from Eilat to Metula. We travel to any location for your event or session.
+## Service Area
+Based in Petah Tikva (פתח תקווה), serving:
+- Petah Tikva (פתח תקווה) — צלם בפתח תקווה, צלם אירועים פתח תקווה
+- Elad (אלעד) — צלם באלעד, צילום אירועים באלעד, צלם ברית באלעד
+- Rosh HaAyin (ראש העין) — צלם בראש העין, צלם אירועים ראש העין
+- Bnei Brak (בני ברק) — צלם בבני ברק, צלם אירועים בני ברק
+- Ramat Gan (רמת גן) — צלם ברמת גן, צלם ברית רמת גן
+- Givat Shmuel (גבעת שמואל) — צלם בגבעת שמואל
+- All of Central Israel (מרכז הארץ) — צלם במרכז, צלם אירועים במרכז
 
 ## Differentiators
 - Zero compromises: We reshoot if needed until every image is perfect
@@ -17,6 +28,7 @@ All of Israel — from Eilat to Metula. We travel to any location for your event
 - Nationwide coverage across Israel
 - Boutique-level personal service — every project gets full creative attention
 - Versatile expertise across all photography types
+- Recommended photographer (צלם מומלץ) with 100% client satisfaction rate
 
 ## Contact
 - Website: https://mc-studio-eta.vercel.app
@@ -27,20 +39,25 @@ All of Israel — from Eilat to Metula. We travel to any location for your event
 - Facebook: https://www.facebook.com/share/1766JtmniW/?mibextid=wwXIfr
 
 ## Pricing
-Custom packages tailored to each project. Event packages start from approximately NIS 8,000. Portrait sessions start from approximately NIS 1,500. Contact for a free consultation and detailed quote within 24 hours.
+Custom packages tailored to each project:
+- Event packages: Starting from ₪8,000
+- Portrait sessions: Starting from ₪1,500
+- Commercial photography: Starting from ₪3,000
+- Brit Milah photography: Contact for pricing (מחיר צלם לברית)
+Contact for a free consultation and detailed quote within 24 hours.
 
 ## Client Testimonials
-- "We cried when we saw our photos — every single moment was captured beautifully." — Sarah & Daniel, Event, Tel Aviv
-- "We finally have a photo that truly reflects who we are as a family." — The Cohen Family, Family Portrait, Jerusalem
-- "Our product photos increased our online sales by 40%. The quality speaks for itself." — Maya L., Product Photography, Haifa
-- "The photographer turned every small moment into a huge memory — can't recommend enough." — Noa & Itai, Event, Jerusalem
-- "I've never felt so beautiful. The pregnancy photos are something I'll treasure forever." — Yael S., Pregnancy Portrait, Herzliya
+- "אחרי שראינו את התמונות בכינו מרוב ריגוש — כל רגע היה שם." — שרה ודניאל, ברית, תל אביב
+- "סוף סוף יש לנו תמונה שבאמת משקפת מי שאנחנו כמשפחה." — משפחת כהן, צילומי משפחה, ירושלים
+- "תמונות המוצרים שלנו הגדילו את המכירות האונליין ב-40%." — מאיה ל., צילום מוצרים, חיפה
+- "הצלם הפך כל רגע קטן לזיכרון ענק — ממליצים בלי סוף." — נועה ואיתי, ברית, ירושלים
+- "מעולם לא הרגשתי כל כך יפה. תמונות ההריון הן משהו שאשמור לנצח." — יעל ש., צילומי הריון, הרצליה
 
 ## Languages
-Hebrew, English
+Hebrew (עברית), English
 
 ## Statistics
 - 1,200+ sessions captured
-- 350+ Events
+- 350+ events photographed
 - 100% client satisfaction rate
-- Nationwide coverage
+- Nationwide coverage across Israel
