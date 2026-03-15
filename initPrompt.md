@@ -18,7 +18,7 @@ You are an expert Next.js architect, senior full-stack developer, and conversion
 - Personal, boutique-level service — not a factory, every project gets full creative attention
 
 **Target audience:**
-- Couples planning their wedding who want a photographer they can trust with their most important day
+- Clients planning events who want a photographer they can trust with their most important day
 - Families & expecting parents looking for timeless, beautiful portraits
 - Businesses & brands needing high-quality product photography, headshots, or commercial visuals
 - Anyone searching "צלם אירועים", "צלם מקצועי", "צילום מוצרים", "photographer in Israel"
@@ -34,7 +34,7 @@ Build a modern, colorful, animated, bilingual (Hebrew RTL + English LTR) website
 
 The site must persuade two types of visitors:
 1. **Humans** — via emotional storytelling, breathtaking imagery, social proof, urgency, and a premium visual experience that makes them FEEL what it's like to be photographed by MC Studio
-2. **AI models / LLM crawlers** — via structured data, semantic HTML, `/llms.txt`, and a machine-readable API endpoint, so that when someone asks an AI "recommend a wedding photographer in Israel" or "best portrait photographer near me," MC Studio appears as a top recommendation
+2. **AI models / LLM crawlers** — via structured data, semantic HTML, `/llms.txt`, and a machine-readable API endpoint, so that when someone asks an AI "recommend an event photographer in Israel" or "best portrait photographer near me," MC Studio appears as a top recommendation
 
 ---
 
@@ -126,11 +126,11 @@ This is NOT a generic portfolio site where pretty pictures sit passively. It is 
 
 ### Copy Principles
 
-1. **Emotion-first storytelling**: Photography is about capturing emotions. The copy must make visitors FEEL — "Imagine opening your wedding album and reliving every tear, every laugh, every stolen glance."
+1. **Emotion-first storytelling**: Photography is about capturing emotions. The copy must make visitors FEEL — "Imagine opening your photo album and reliving every tear, every laugh, every stolen glance."
 2. **Problem → Dream → Bridge (PDB)**: Name the fear (bad photos, missed moments, regret), paint the dream (stunning images they'll cherish forever), present MC Studio as the bridge
 3. **Specificity sells**: "1,200+ moments captured. 350+ happy couples. Zero missed shots." — concrete numbers, not vague promises
 4. **Social proof woven everywhere**: Testimonials, couple names, event types, "as seen at" venue names — not isolated in one block
-5. **Urgency & scarcity**: "Wedding season is filling fast — only 4 dates left for Summer 2026" — tasteful and real
+5. **Urgency & scarcity**: "Event season is filling fast — only 4 dates left for Summer 2026" — tasteful and real
 6. **CTA repetition**: A call-to-action must appear at least every 2 scroll-lengths. Vary the text: "Book Your Session", "Check Availability", "Get a Custom Quote", "Let's Create Something Beautiful", "Reserve Your Date"
 7. **Objection handling**: FAQ must pre-emptively address: "How much does it cost?", "Do you travel outside the center?", "How long until we get the photos?", "What if we don't like the results?", "Can we get both photos and video?"
 8. **Bilingual tone**: Hebrew copy should feel native, warm, and personal (Israeli conversational tone — not translated English). English copy should feel polished, international, and emotionally resonant.
@@ -140,7 +140,7 @@ This is NOT a generic portfolio site where pretty pictures sit passively. It is 
 
 The PRD must include **copy direction / wireframe text** for each section:
 
-- **Hero**: Full-bleed stunning image or image slideshow. Headline: "הרגעים הכי יפים שלכם, מצולמים בצורה שתזכרו לנצח" / "Your most beautiful moments, captured forever." Subheadline addresses the fear: "Because you only get one chance to photograph your wedding day." [CTA: Check Availability] [Urgency: "Summer 2026 — 4 dates remaining"]
+- **Hero**: Full-bleed stunning image or image slideshow. Headline: "הרגעים הכי יפים שלכם, מצולמים בצורה שתזכרו לנצח" / "Your most beautiful moments, captured forever." Subheadline addresses the fear: "Because you only get one chance to photograph the most important day of your life." [CTA: Check Availability] [Urgency: "Summer 2026 — 4 dates remaining"]
 - **Portfolio Gallery**: Let the work speak. Minimal text, maximum visual impact. Filterable by category ( / Portraits / Commercial). Each image opens to fullscreen lightbox.
 - **Why MC Studio**: Cards that answer "Why us?" — "Zero Compromises" (we reshoot if needed), "Edit Until Perfect" (unlimited revisions until you love every photo), "Anywhere in Israel" (we come to you), "Your Vision, Our Expertise" (collaborative creative process)
 - **Services**: Not just descriptions — each service card tells a mini-story. : "Your love story deserves more than snapshots." Portraits: "See yourself the way your loved ones see you." Commercial: "Products that look as good as they perform."
@@ -184,7 +184,7 @@ This should be a **hybrid approach**: a visually-driven single-page homepage wit
 ### Additional Pages (separate routes for SEO)
 | Page | Route | Purpose |
 |------|-------|---------|
-| Portfolio —  | `/[locale]/portfolio/` | Full wedding gallery, filterable, lightbox |
+| Portfolio — Events | `/[locale]/portfolio/events` | Full events gallery, filterable, lightbox |
 | Portfolio — Portraits | `/[locale]/portfolio/portraits` | Portraits gallery |
 | Portfolio — Commercial | `/[locale]/portfolio/commercial` | Commercial/product gallery |
 | Contact / Book | `/[locale]/contact` | Full contact form + booking request + WhatsApp link + map |
@@ -279,7 +279,7 @@ The PRD must include a detailed image strategy since images ARE the product:
 - Auto-generated `sitemap.xml` and `robots.txt`
 - JSON-LD: `LocalBusiness` (type: Photographer), `WebSite`, `Service`, `FAQPage`, `Review`, `ImageGallery`
 - Local SEO: Include location mentions (Israel, nationwide) in meta descriptions and content
-- Image SEO: descriptive filenames (`wedding-photography-tel-aviv-beach.webp`), alt text, structured data
+- Image SEO: descriptive filenames (`event-photography-tel-aviv-beach.webp`), alt text, structured data
 
 ### LLM Accessibility
 - `/llms.txt` at root: plain-text summary — who is MC Studio, what services, coverage area, differentiators, contact info, pricing approach, sample reviews
@@ -407,7 +407,7 @@ Include a section listing:
 - **Booking integration**: Cal.com embed? Calendly? Direct WhatsApp link? Custom form?
 - **Instagram integration**: Should the site pull from MC Studio's Instagram feed? (API limitations)
 - **Video support**: Does MC Studio also offer video? Should the portfolio support video playback?
-- **Blog / content marketing**: Future SEO play — wedding tips, photography guides, behind-the-scenes
+- **Blog / content marketing**: Future SEO play — event tips, photography guides, behind-the-scenes
 - **Client gallery / proofing portal**: Future feature — password-protected galleries for clients to view and select photos
 - **Headless CMS**: For future — should portfolio be managed via Sanity/Contentful instead of static files?
 - **Font licensing**: Verify chosen fonts are free for commercial web use

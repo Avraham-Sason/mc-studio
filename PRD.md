@@ -32,7 +32,7 @@
 
 ## 1. Executive Summary
 
-**MC Studio** is a premium photography studio operating across Israel, specializing in weddings & events, portraits (family, pregnancy, headshots), and commercial/product photography. The studio does **not** offer fashion or modeling photography.
+**MC Studio** is a premium photography studio operating across Israel, specializing in events, portraits (family, pregnancy, headshots), and commercial/product photography. The studio does **not** offer fashion or modeling photography.
 
 **Core Value Proposition:**
 > "צילום מקצועי ללא פשרות — אנחנו לא עוצרים עד שכל תמונה מושלמת וכל לקוח יוצא מרוצה."
@@ -51,11 +51,11 @@ The site must persuade **two types of visitors**:
 - Uncompromising quality in both shooting and post-production
 - High-end editing and retouching with revision cycles until full client satisfaction
 - Nationwide coverage — travels anywhere in Israel
-- Versatile expertise across weddings, portraits, and commercial work
+- Versatile expertise across events, portraits, and commercial work
 - Personal, boutique-level service — every project gets full creative attention
 
 **Target Audience:**
-- Couples planning weddings who want a photographer they can trust
+- Clients planning events who want a photographer they can trust
 - Families & expecting parents seeking timeless, beautiful portraits
 - Businesses & brands needing high-quality product photography, headshots, or commercial visuals
 - Anyone searching "צלם אירועים", "צלם מקצועי", "צילום מוצרים", "photographer in Israel"
@@ -228,11 +228,11 @@ The site supports **3 switchable color themes** built on shadcn/ui's CSS custom 
 
 | # | Principle | Description |
 |---|-----------|-------------|
-| 1 | **Emotion-First Storytelling** | Photography captures emotions. Copy must make visitors *feel*: "Imagine opening your wedding album and reliving every tear, every laugh, every stolen glance." |
+| 1 | **Emotion-First Storytelling** | Photography captures emotions. Copy must make visitors *feel*: "Imagine opening your photo album and reliving every tear, every laugh, every stolen glance." |
 | 2 | **Problem → Dream → Bridge (PDB)** | Name the fear (bad photos, missed moments, regret) → paint the dream (stunning images cherished forever) → present MC Studio as the bridge |
 | 3 | **Specificity Sells** | "1,200+ moments captured. 350+ happy couples. Zero missed shots." Concrete numbers, not vague promises |
 | 4 | **Social Proof Woven Everywhere** | Testimonials, couple names, event types, venue names — integrated throughout, not isolated in one block |
-| 5 | **Urgency & Scarcity** | "Wedding season is filling fast — only 4 dates left for Summer 2026" — tasteful, real, and effective |
+| 5 | **Urgency & Scarcity** | "Event season is filling fast — only 4 dates left for Summer 2026" — tasteful, real, and effective |
 | 6 | **CTA Repetition** | A call-to-action every 2 scroll-lengths. Varied text: "Book Your Session", "Check Availability", "Get a Custom Quote", "Let's Create Something Beautiful", "Reserve Your Date" |
 | 7 | **Objection Handling** | FAQ pre-emptively addresses pricing, travel, turnaround, satisfaction guarantee, photo+video bundles |
 | 8 | **Bilingual Tone** | Hebrew: native, warm, personal (Israeli conversational). English: polished, international, emotionally resonant |
@@ -269,7 +269,7 @@ The site supports **3 switchable color themes** built on shadcn/ui's CSS custom 
 
 | Service | Tagline (HE) | Tagline (EN) | Key Deliverables |
 |---------|-------------|-------------|------------------|
-| **Weddings & Events** | סיפור האהבה שלכם ראוי ליותר מסתם תמונות | Your love story deserves more than snapshots | Full-day coverage, engagement session, edited album, online gallery, prints |
+| **Events** | סיפור האהבה שלכם ראוי ליותר מסתם תמונות | Your love story deserves more than snapshots | Full-day coverage, engagement session, edited album, online gallery, prints |
 | **Portraits** | תראו את עצמכם כמו שהאנשים שאוהבים אתכם רואים אתכם | See yourself the way your loved ones see you | Family, pregnancy, headshots, styled sessions, retouched files |
 | **Commercial** | מוצרים שנראים טוב כמו שהם באמת | Products that look as good as they perform | Product photography, brand visuals, lifestyle shoots, e-commerce ready |
 
@@ -278,7 +278,7 @@ The site supports **3 switchable color themes** built on shadcn/ui's CSS custom 
 | Stat | Value | Label (HE) | Label (EN) |
 |------|-------|-----------|-----------|
 | 1 | 1,200+ | אירועים שצולמו | Sessions Captured |
-| 2 | 350+ | אירועים | Weddings |
+| 2 | 350+ | אירועים | Events |
 | 3 | 100% | שביעות רצון | Satisfaction |
 | 4 | 🇮🇱 | כיסוי ארצי | Nationwide |
 
@@ -288,9 +288,9 @@ The site supports **3 switchable color themes** built on shadcn/ui's CSS custom 
 
 | Client | Event | Quote (HE) | Quote (EN) |
 |--------|-------|-----------|-----------|
-| שרה ודניאל | חתונה, תל אביב | "אחרי שראינו את התמונות בכינו מרוב ריגוש — כל רגע היה שם" | "We cried when we saw our photos — every single moment was captured" |
+| שרה ודניאל | אירוע, תל אביב | "אחרי שראינו את התמונות בכינו מרוב ריגוש — כל רגע היה שם" | "We cried when we saw our photos — every single moment was captured" |
 | משפחת כהן | צילומי משפחה | "סוף סוף יש לנו תמונה שבאמת משקפת מי שאנחנו כמשפחה" | "We finally have a photo that truly reflects who we are as a family" |
-| נועה ואיתי | חתונה, ירושלים | "הצלם הפך כל רגע קטן לזיכרון ענק — ממליצים בלי סוף" | "The photographer turned every small moment into a huge memory — can't recommend enough" |
+| נועה ואיתי | אירוע, ירושלים | "הצלם הפך כל רגע קטן לזיכרון ענק — ממליצים בלי סוף" | "The photographer turned every small moment into a huge memory — can't recommend enough" |
 
 #### Process / How It Works
 
@@ -326,7 +326,7 @@ Include 3 indicative service categories (not fixed tiers) with "starting from" m
 | 7 | אתם מציעים אלבומים מודפסים? | Do you offer printed albums? |
 | 8 | מה מדיניות הביטולים? | What is the cancellation policy? |
 
-**Answer Direction:** Every answer must reinforce value and remove hesitation. E.g., for pricing: "Every project is different, and we believe in transparent, custom pricing that matches your exact needs. Most wedding packages start from ₪X,XXX. Contact us for a free consultation and detailed quote within 24 hours."
+**Answer Direction:** Every answer must reinforce value and remove hesitation. E.g., for pricing: "Every project is different, and we believe in transparent, custom pricing that matches your exact needs. Most event packages start from ₪X,XXX. Contact us for a free consultation and detailed quote within 24 hours."
 
 #### CTA Banner (Final)
 
@@ -342,11 +342,11 @@ Include 3 indicative service categories (not fixed tiers) with "starting from" m
 
 | Asset | Format | Content |
 |-------|--------|---------|
-| `/llms.txt` | Plain text | Company description, services list (weddings, portraits, commercial), coverage area (all of Israel), differentiators, contact info, sample testimonials, pricing approach |
+| `/llms.txt` | Plain text | Company description, services list (events, portraits, commercial), coverage area (all of Israel), differentiators, contact info, sample testimonials, pricing approach |
 | `/api/company-info` | JSON | Structured data: services, portfolio categories, testimonials, location, contact, pricing ranges |
 | JSON-LD | Embedded `<script>` | `LocalBusiness` (Photographer), `WebSite`, `Service`, `FAQPage`, `Review`, `ImageGallery` schemas |
 | Semantic HTML | — | Descriptive `aria-label` on all sections, proper heading hierarchy |
-| Meta descriptions | — | Elevator pitches: "MC Studio — Professional photography across Israel. Weddings, portraits, commercial. Zero compromises, stunning results." |
+| Meta descriptions | — | Elevator pitches: "MC Studio — Professional photography across Israel. Events, portraits, commercial. Zero compromises, stunning results." |
 
 ---
 
@@ -379,7 +379,7 @@ Include 3 indicative service categories (not fixed tiers) with "starting from" m
 │     4 differentiation cards             │
 ├─────────────────────────────────────────┤
 │  5. SERVICES (tabbed/scroll)            │
-│     Weddings │ Portraits │ Commercial   │
+│     Events │ Portraits │ Commercial     │
 ├─────────────────────────────────────────┤
 │  6. STATS COUNTER BAR (full-width)      │
 │     1,200+ │ 350+ │ 100% │ Nationwide  │
@@ -414,7 +414,7 @@ Include 3 indicative service categories (not fixed tiers) with "starting from" m
 |-------|------|---------|
 | `/[locale]` | SSG | Homepage — all 13 sections |
 | `/[locale]/portfolio` | SSG | Portfolio overview — all categories |
-| `/[locale]/portfolio/weddings` | SSG | Full wedding gallery with lightbox |
+| `/[locale]/portfolio/events` | SSG | Full events gallery with lightbox |
 | `/[locale]/portfolio/portraits` | SSG | Full portrait gallery with lightbox |
 | `/[locale]/portfolio/commercial` | SSG | Full commercial gallery with lightbox |
 | `/[locale]/contact` | SSR | Contact form + booking request + WhatsApp + map |
@@ -449,7 +449,7 @@ Include 3 indicative service categories (not fixed tiers) with "starting from" m
 #### Portfolio Overview Page (`/[locale]/portfolio`)
 
 - Hero banner with headline: "כל תמונה מספרת סיפור" / "Every Image Tells a Story"
-- 3 category cards (Weddings, Portraits, Commercial) — each with hero image, title, image count, and CTA link
+- 3 category cards (Events, Portraits, Commercial) — each with hero image, title, image count, and CTA link
 - Below cards: masonry grid of 12–16 mixed-category "best of" images
 - Each image links to its category gallery
 
@@ -457,7 +457,7 @@ Include 3 indicative service categories (not fixed tiers) with "starting from" m
 
 - Category-specific hero banner with relevant imagery
 - Category description (1–2 sentences, sales-driven)
-- Filter bar (if sub-categories exist, e.g., "Beach Weddings", "Indoor Ceremonies")
+- Filter bar (if sub-categories exist, e.g., "Outdoor Events", "Indoor Ceremonies")
 - Masonry grid layout with responsive columns:
   - Desktop (xl+): 4 columns
   - Laptop (lg): 3 columns
@@ -485,9 +485,9 @@ Include 3 indicative service categories (not fixed tiers) with "starting from" m
 
 ```
 /public/portfolio/
-  /weddings/
-    wedding-beach-tel-aviv-01.webp
-    wedding-garden-jerusalem-02.webp
+  /events/
+    event-beach-tel-aviv-01.webp
+    event-garden-jerusalem-02.webp
     ...
   /portraits/
     portrait-family-studio-01.webp
@@ -623,13 +623,13 @@ Served via next/image with:
 
 | Category | Count | Source |
 |----------|-------|--------|
-| Weddings | 8–10 images | Curated Unsplash or real MC Studio work |
+| Events | 8–10 images | Curated Unsplash or real MC Studio work |
 | Portraits | 6–8 images | Curated Unsplash or real MC Studio work |
 | Commercial | 4–6 images | Curated Unsplash or real MC Studio work |
 
 **Each image requires:**
 - Descriptive `alt` text in both Hebrew and English (stored in locale JSON)
-- SEO-friendly filename: `wedding-photography-tel-aviv-beach.webp`
+- SEO-friendly filename: `event-photography-tel-aviv-beach.webp`
 - Category and subcategory tags
 - Generated blur placeholder data (base64)
 
@@ -803,7 +803,7 @@ export const animations = {
 ### Language Switcher
 
 - Toggle component in navbar: `EN / עב`
-- Clicking switches locale while preserving current path (e.g., `/he/portfolio/weddings` → `/en/portfolio/weddings`)
+- Clicking switches locale while preserving current path (e.g., `/he/portfolio/events` → `/en/portfolio/events`)
 - Current locale visually highlighted (bold, underline, or active state)
 - Locale preference persisted via cookie
 
@@ -858,8 +858,8 @@ export const animations = {
 | Page | Template |
 |------|----------|
 | Homepage (HE) | MC Studio — צילום מקצועי בכל הארץ. אירועים, סטילס, צילום מסחרי. ללא פשרות, תוצאות מדהימות. |
-| Homepage (EN) | MC Studio — Professional photography across Israel. Weddings, portraits, commercial. Zero compromises, stunning results. |
-| Portfolio (EN) | Browse MC Studio's portfolio — stunning wedding, portrait, and commercial photography from across Israel. |
+| Homepage (EN) | MC Studio — Professional photography across Israel. Events, portraits, commercial. Zero compromises, stunning results. |
+| Portfolio (EN) | Browse MC Studio's portfolio — stunning event, portrait, and commercial photography from across Israel. |
 | Contact (EN) | Book your session with MC Studio. Get a custom quote within 24 hours. Professional photography anywhere in Israel. |
 
 ### LLM Accessibility
@@ -873,7 +873,7 @@ export const animations = {
 MC Studio is a premium photography studio based in Israel offering professional photography services nationwide.
 
 ## Services
-- Wedding & Event Photography: Full-day coverage, engagement sessions, edited albums
+- Event Photography: Full-day coverage, engagement sessions, edited albums
 - Portrait Photography: Family, pregnancy, headshots, styled sessions
 - Commercial Photography: Product photography, brand visuals, e-commerce
 
@@ -895,10 +895,10 @@ All of Israel — from Eilat to Metula. We travel to any location.
 - Instagram: @mcstudio
 
 ## Pricing
-Custom packages tailored to each project. Wedding packages start from ₪X,XXX. Contact for a free consultation.
+Custom packages tailored to each project. Event packages start from ₪X,XXX. Contact for a free consultation.
 
 ## Client Testimonials
-- "We cried when we saw our photos — every single moment was captured" — Sarah & Daniel, Wedding
+- "We cried when we saw our photos — every single moment was captured" — Sarah & Daniel, Event
 - "We finally have a photo that truly reflects who we are as a family" — Cohen Family
 
 ## Languages
@@ -918,7 +918,7 @@ Hebrew, English
   },
   "services": [
     {
-      "name": "Wedding & Event Photography",
+      "name": "Event Photography",
       "description": "...",
       "deliverables": ["Full-day coverage", "Engagement session", "Edited album", "Online gallery"]
     },
@@ -936,7 +936,7 @@ Hebrew, English
   "languages": ["Hebrew", "English"],
   "stats": {
     "sessions": "1200+",
-    "weddings": "350+",
+    "events": "350+",
     "satisfaction": "100%"
   }
 }
@@ -1011,8 +1011,8 @@ mc-studio/
 │   │   ├── page.tsx                      # Homepage (all 13 sections)
 │   │   ├── portfolio/
 │   │   │   ├── page.tsx                  # Portfolio overview
-│   │   │   ├── weddings/
-│   │   │   │   └── page.tsx              # Wedding gallery
+│   │   │   ├── events/
+│   │   │   │   └── page.tsx              # Events gallery
 │   │   │   ├── portraits/
 │   │   │   │   └── page.tsx              # Portrait gallery
 │   │   │   └── commercial/
@@ -1095,7 +1095,7 @@ mc-studio/
 │
 ├── public/
 │   ├── portfolio/
-│   │   ├── weddings/                     # Wedding gallery images
+│   │   ├── events/                       # Event gallery images
 │   │   ├── portraits/                    # Portrait gallery images
 │   │   └── commercial/                   # Commercial gallery images
 │   ├── team/                             # Photographer headshots / team photos
@@ -1157,10 +1157,10 @@ Full structure for `/messages/en.json` and `/messages/he.json`:
     "cta2": "View Portfolio",
     "urgencyBadge": "Summer 2026 — Only 4 Dates Remaining",
     "slides": [
-      { "alt": "Elegant wedding ceremony at sunset on Tel Aviv beach" },
+      { "alt": "Elegant event ceremony at sunset on Tel Aviv beach" },
       { "alt": "Joyful family portrait session in a sunlit Jerusalem garden" },
       { "alt": "Stunning product photography for luxury jewelry brand" },
-      { "alt": "Emotional first dance at a Galilee vineyard wedding" },
+      { "alt": "Emotional first dance at a Galilee vineyard event" },
       { "alt": "Beautiful pregnancy portrait in golden hour light" }
     ]
   },
@@ -1171,7 +1171,7 @@ Full structure for `/messages/en.json` and `/messages/he.json`:
     "subtitle": "A glimpse of the moments we've captured",
     "viewAll": "View Full Gallery →",
     "categories": {
-      "weddings": "Weddings",
+      "events": "Events",
       "portraits": "Portraits",
       "commercial": "Commercial"
     }
@@ -1215,18 +1215,18 @@ Full structure for `/messages/en.json` and `/messages/he.json`:
     "subtitle": "Professional photography for every moment that matters",
     "items": [
       {
-        "id": "weddings",
-        "title": "Weddings & Events",
+        "id": "events",
+        "title": "Events",
         "tagline": "Your love story deserves more than snapshots",
-        "description": "We capture the real, raw, beautiful moments of your wedding day — from the nervous butterflies to the last dance.",
+        "description": "We capture the real, raw, beautiful moments of your special day — from the nervous butterflies to the last dance.",
         "features": [
           "Full-day coverage (up to 12 hours)",
-          "Engagement / pre-wedding session",
+          "Engagement / pre-event session",
           "500+ professionally edited images",
           "Online gallery with download access",
           "Premium album design (optional)"
         ],
-        "cta": "Book Your Wedding"
+        "cta": "Book Your Event"
       },
       {
         "id": "portraits",
@@ -1263,7 +1263,7 @@ Full structure for `/messages/en.json` and `/messages/he.json`:
   "stats": {
     "items": [
       { "value": 1200, "suffix": "+", "label": "Sessions Captured" },
-      { "value": 350, "suffix": "+", "label": "Weddings" },
+      { "value": 350, "suffix": "+", "label": "Events" },
       { "value": 100, "suffix": "%", "label": "Satisfaction" },
       { "value": null, "suffix": "", "label": "Nationwide Coverage", "icon": "map-pin" }
     ]
@@ -1277,7 +1277,7 @@ Full structure for `/messages/en.json` and `/messages/he.json`:
       {
         "quote": "We cried when we saw our photos — every single moment was captured beautifully.",
         "name": "Sarah & Daniel",
-        "eventType": "Wedding",
+        "eventType": "Event",
         "location": "Tel Aviv"
       },
       {
@@ -1289,7 +1289,7 @@ Full structure for `/messages/en.json` and `/messages/he.json`:
       {
         "quote": "The photographer turned every small moment into a huge memory — can't recommend enough.",
         "name": "Noa & Itai",
-        "eventType": "Wedding",
+        "eventType": "Event",
         "location": "Jerusalem"
       },
       {
@@ -1341,11 +1341,11 @@ Full structure for `/messages/en.json` and `/messages/he.json`:
     "subtitle": "A deeper look at some of our favorite projects",
     "items": [
       {
-        "title": "Sarah & Daniel's Beach Wedding",
-        "eventType": "Wedding",
+        "title": "Sarah & Daniel's Beach Event",
+        "eventType": "Event",
         "location": "Tel Aviv",
         "description": "A golden sunset ceremony on the Tel Aviv coastline, followed by an unforgettable celebration under the stars.",
-        "clientQuote": "Every photo feels like a movie scene. We relive our wedding day every time we open the album.",
+        "clientQuote": "Every photo feels like a movie scene. We relive our special day every time we open the album.",
         "clientName": "Sarah & Daniel",
         "imageCount": 6
       }
@@ -1359,7 +1359,7 @@ Full structure for `/messages/en.json` and `/messages/he.json`:
     "description": "Tell us your vision and we'll create a custom package that fits perfectly. No hidden fees, no surprises.",
     "categories": [
       {
-        "name": "Weddings & Events",
+        "name": "Events",
         "startingFrom": "Starting from ₪X,XXX",
         "includes": ["Full-day coverage", "500+ edited photos", "Online gallery", "Engagement session"]
       },
@@ -1385,19 +1385,19 @@ Full structure for `/messages/en.json` and `/messages/he.json`:
     "items": [
       {
         "question": "How much does it cost?",
-        "answer": "Every project is different, and we believe in transparent, custom pricing that matches your exact needs. Most wedding packages start from ₪X,XXX, portrait sessions from ₪X,XXX. Contact us for a free consultation and detailed quote within 24 hours — no obligations."
+        "answer": "Every project is different, and we believe in transparent, custom pricing that matches your exact needs. Most event packages start from ₪X,XXX, portrait sessions from ₪X,XXX. Contact us for a free consultation and detailed quote within 24 hours — no obligations."
       },
       {
         "question": "Do you travel outside the center of Israel?",
-        "answer": "Absolutely! We cover all of Israel — from Eilat in the south to Metula in the north. Travel is included in most packages. We've shot weddings at Dead Sea resorts, Galilee vineyards, Negev desert locations, and everywhere in between."
+        "answer": "Absolutely! We cover all of Israel — from Eilat in the south to Metula in the north. Travel is included in most packages. We've shot events at Dead Sea resorts, Galilee vineyards, Negev desert locations, and everywhere in between."
       },
       {
         "question": "How long until we get the photos?",
-        "answer": "Typical turnaround is 2–4 weeks for weddings and 1–2 weeks for portrait and commercial sessions. We'll give you a sneak peek of 10–15 images within 48 hours of your shoot so you have something to share immediately."
+        "answer": "Typical turnaround is 2–4 weeks for events and 1–2 weeks for portrait and commercial sessions. We'll give you a sneak peek of 10–15 images within 48 hours of your shoot so you have something to share immediately."
       },
       {
         "question": "What if we don't like the results?",
-        "answer": "We include unlimited revision rounds in every package. We don't stop until you love every single image. In our 350+ weddings, we've maintained a 100% satisfaction rate — and we intend to keep it that way."
+        "answer": "We include unlimited revision rounds in every package. We don't stop until you love every single image. In our 350+ events, we've maintained a 100% satisfaction rate — and we intend to keep it that way."
       },
       {
         "question": "Can we get both photos and video?",
@@ -1405,7 +1405,7 @@ Full structure for `/messages/en.json` and `/messages/he.json`:
       },
       {
         "question": "What should we prepare before the shoot?",
-        "answer": "We'll send you a detailed preparation guide after booking. For weddings, we'll coordinate with your planner. For portraits, we'll advise on wardrobe, location scouting, and timing for the best light. We handle the creative details — you just show up and be yourselves."
+        "answer": "We'll send you a detailed preparation guide after booking. For events, we'll coordinate with your planner. For portraits, we'll advise on wardrobe, location scouting, and timing for the best light. We handle the creative details — you just show up and be yourselves."
       },
       {
         "question": "Do you offer printed albums?",
@@ -1434,7 +1434,7 @@ Full structure for `/messages/en.json` and `/messages/he.json`:
       "email": "Email Address",
       "phone": "Phone Number",
       "eventType": "Type of Session",
-      "eventTypeOptions": ["Wedding", "Portrait — Family", "Portrait — Pregnancy", "Portrait — Headshot", "Commercial — Product", "Commercial — Brand", "Other"],
+      "eventTypeOptions": ["Event", "Portrait — Family", "Portrait — Pregnancy", "Portrait — Headshot", "Commercial — Product", "Commercial — Brand", "Other"],
       "date": "Preferred Date",
       "message": "Tell us about your vision",
       "submit": "Send Message",
@@ -1504,15 +1504,15 @@ Full structure for `/messages/en.json` and `/messages/he.json`:
   "seo": {
     "home": {
       "title": "MC Studio — Professional Photography Across Israel",
-      "description": "MC Studio — Professional photography across Israel. Weddings, portraits, commercial. Zero compromises, stunning results. Book your session today."
+      "description": "MC Studio — Professional photography across Israel. Events, portraits, commercial. Zero compromises, stunning results. Book your session today."
     },
     "portfolio": {
       "title": "Portfolio — MC Studio Photography",
-      "description": "Browse MC Studio's stunning portfolio — wedding, portrait, and commercial photography from across Israel."
+      "description": "Browse MC Studio's stunning portfolio — event, portrait, and commercial photography from across Israel."
     },
-    "portfolioWeddings": {
-      "title": "Wedding Photography — MC Studio",
-      "description": "Beautiful wedding photography across Israel. See our wedding portfolio — every love story captured perfectly."
+    "portfolioEvents": {
+      "title": "Event Photography — MC Studio",
+      "description": "Beautiful event photography across Israel. See our event portfolio — every love story captured perfectly."
     },
     "portfolioPortraits": {
       "title": "Portrait Photography — MC Studio",
@@ -1539,9 +1539,9 @@ Full structure for `/messages/en.json` and `/messages/he.json`:
 ```typescript
 interface PortfolioImage {
   id: string;
-  src: string;                    // Path: /portfolio/weddings/...
+  src: string;                    // Path: /portfolio/events/...
   alt: { en: string; he: string }; // Bilingual alt text
-  category: "weddings" | "portraits" | "commercial";
+  category: "events" | "portraits" | "commercial";
   subcategory?: string;           // e.g., "beach", "garden", "family", "product"
   width: number;
   height: number;
@@ -1608,7 +1608,7 @@ interface PortfolioImage {
 | Task | Details | Priority |
 |------|---------|----------|
 | Portfolio overview page | 3 category cards + mixed masonry grid | P0 |
-| Wedding gallery page | Full masonry grid, filterable by sub-category | P0 |
+| Event gallery page | Full masonry grid, filterable by sub-category | P0 |
 | Portrait gallery page | Full masonry grid | P0 |
 | Commercial gallery page | Full masonry grid | P0 |
 | GalleryGrid component | CSS grid masonry, responsive columns | P0 |
@@ -1703,7 +1703,7 @@ interface PortfolioImage {
 | 4 | **Booking integration**: Cal.com embed? Calendly? Direct WhatsApp link? Custom availability form? | Medium — affects contact page design | Phase 4 |
 | 5 | **Instagram integration**: Should the site pull from MC Studio's Instagram feed? (API limitations, Meta approval required) | Low — nice-to-have, can add post-launch | Phase 5 or post-launch |
 | 6 | **Video support**: Does MC Studio offer video? Should the portfolio support video playback? | Medium — affects gallery architecture | Phase 1 |
-| 7 | **Blog / content marketing**: Future SEO play — wedding tips, photography guides. Plan architecture now? | Low — future feature, but route structure should accommodate | Phase 1 (architecture only) |
+| 7 | **Blog / content marketing**: Future SEO play — event tips, photography guides. Plan architecture now? | Low — future feature, but route structure should accommodate | Phase 1 (architecture only) |
 | 8 | **Client gallery / proofing portal**: Password-protected galleries for clients. Scope for v2? | Low — post-launch feature | Post-launch |
 | 9 | **Headless CMS**: Should portfolio be managed via Sanity/Contentful instead of static files? | Medium — affects content management workflow | Phase 1 |
 | 10 | **Pricing values**: What are the actual "starting from" price ranges to display? | High — affects lead qualification | Phase 4 |

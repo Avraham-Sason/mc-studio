@@ -44,9 +44,9 @@ export function ServicesJsonLd() {
   const services = [
     {
       "@type": "Service",
-      name: "Wedding & Event Photography",
+      name: "Event Photography",
       description:
-        "Full-day wedding and event photography coverage across Israel. Engagement sessions, edited albums, online galleries.",
+        "Full-day event photography coverage across Israel. Engagement sessions, edited albums, online galleries.",
       provider: { "@type": "Photographer", name: "MC Studio" },
       areaServed: { "@type": "Country", name: "Israel" },
     },

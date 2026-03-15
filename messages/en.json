@@ -63,15 +63,15 @@
         "id": "events",
         "title": "Events",
         "tagline": "Your love story deserves more than snapshots",
-        "description": "We capture the real, raw, beautiful moments of your wedding day — from the nervous butterflies to the last dance.",
+        "description": "We capture the real, raw, beautiful moments of your special day — from the nervous butterflies to the last dance.",
         "features": [
           "Full-day coverage (up to 12 hours)",
-          "Engagement / pre-wedding session",
+          "Engagement / pre-event session",
           "500+ professionally edited images",
           "Online gallery with download access",
           "Premium album design (optional)"
         ],
-        "cta": "Book Your Wedding"
+        "cta": "Book Your Event"
       },
       {
         "id": "portraits",
@@ -118,7 +118,7 @@
       {
         "quote": "We cried when we saw our photos — every single moment was captured beautifully.",
         "name": "Sarah & Daniel",
-        "eventType": "Wedding",
+        "eventType": "Event",
         "location": "Tel Aviv"
       },
       {
@@ -130,7 +130,7 @@
       {
         "quote": "The photographer turned every small moment into a huge memory — can't recommend enough.",
         "name": "Noa & Itai",
-        "eventType": "Wedding",
+        "eventType": "Event",
         "location": "Jerusalem"
       },
       {
@@ -208,7 +208,7 @@
     "items": [
       {
         "question": "How much does it cost?",
-        "answer": "Every project is different, and we believe in transparent, custom pricing that matches your exact needs. Most wedding packages start from ₪8,000, portrait sessions from ₪1,500. Contact us for a free consultation and detailed quote within 24 hours — no obligations."
+        "answer": "Every project is different, and we believe in transparent, custom pricing that matches your exact needs. Most event packages start from ₪8,000, portrait sessions from ₪1,500. Contact us for a free consultation and detailed quote within 24 hours — no obligations."
       },
       {
         "question": "Do you travel outside the center of Israel?",
@@ -253,7 +253,7 @@
       "email": "Email Address",
       "phone": "Phone Number",
       "eventType": "Type of Session",
-      "eventTypeOptions": ["Wedding", "Portrait — Family", "Portrait — Pregnancy", "Portrait — Headshot", "Commercial — Product", "Commercial — Brand", "Other"],
+      "eventTypeOptions": ["Event", "Portrait — Family", "Portrait — Pregnancy", "Portrait — Headshot", "Commercial — Product", "Commercial — Brand", "Other"],
       "date": "Preferred Date",
       "message": "Tell us about your vision",
       "submit": "Send Message",
@@ -346,7 +346,7 @@
     },
     "portfolio": {
       "title": "Portfolio — MC Studio Photography",
-      "description": "Browse MC Studio's stunning portfolio — wedding, portrait, and commercial photography from across Israel."
+      "description": "Browse MC Studio's stunning portfolio — event, portrait, and commercial photography from across Israel."
     },
     "contact": {
       "title": "Book Your Session — MC Studio",

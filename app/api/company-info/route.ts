@@ -12,7 +12,7 @@ export async function GET() {
     },
     services: [
       {
-        name: "Wedding & Event Photography",
+        name: "Event Photography",
         description:
           "Full-day coverage and events, capturing every meaningful moment from ceremony to celebration.",
         deliverables: [
@@ -60,7 +60,7 @@ export async function GET() {
         quote:
           "We cried when we saw our photos — every single moment was captured beautifully.",
         author: "Sarah & Daniel",
-        event: "Wedding, Tel Aviv",
+        event: "Event, Tel Aviv",
       },
       {
         quote:
