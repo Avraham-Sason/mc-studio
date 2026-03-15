@@ -2,7 +2,7 @@ export interface PortfolioImage {
   id: string;
   src: string;
   alt: { en: string; he: string };
-  category: "events" | "family" | "gender_reveal" | "marriage_proposal" | "pregnancy" | "purim";
+  category: string;
   width: number;
   height: number;
   blurDataURL?: string;

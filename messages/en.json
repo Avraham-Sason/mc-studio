@@ -208,7 +208,7 @@
     "items": [
       {
         "question": "How much does it cost?",
-        "answer": "Every project is different, and we believe in transparent, custom pricing that matches your exact needs. Most event packages start from ₪8,000, portrait sessions from ₪1,500. Contact us for a free consultation and detailed quote within 24 hours — no obligations."
+        "answer": "Every project is priced individually based on the type of work, the scope of the project, and the location. Contact us and we will be happy to provide a custom quote that fits your exact needs."
       },
       {
         "question": "Do you travel outside the center of Israel?",
@@ -366,7 +366,8 @@
       "family": "Family",
       "gender_reveal": "Gender Reveal",
       "marriage_proposal": "Marriage Proposal",
-      "pregnancy": "Pregnancy"
+      "pregnancy": "Pregnancy",
+      "purim": "Purim"
     },
     "viewGallery": "View Gallery",
     "imageCount": "{count} photos"

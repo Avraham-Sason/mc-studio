@@ -1,0 +1,50 @@
+import { notFound } from "next/navigation";
+import Image from "next/image";
+import { GalleryGrid } from "@/components/gallery/gallery-grid";
+import { SectionWrapper } from "@/components/ui/section-wrapper";
+import { getImagesByCategory, getCategoryKeys, formatCategoryLabel } from "@/lib/get-portfolio-images";
+
+export const dynamic = "force-dynamic";
+
+export default async function CategoryGalleryPage({
+  params,
+}: {
+  params: Promise<{ locale: string; category: string }>;
+}) {
+  const { locale, category } = await params;
+  const validCategories = getCategoryKeys();
+
+  if (!validCategories.includes(category)) {
+    notFound();
+  }
+
+  const images = getImagesByCategory(category);
+  const heroSrc = images[0]?.src ?? "";
+  const label = formatCategoryLabel(category);
+  const displayName = label[locale as "en" | "he"] ?? label.en;
+
+  return (
+    <>
+      <div className="relative py-20 lg:py-28 overflow-hidden">
+        {heroSrc && (
+          <Image
+            src={heroSrc}
+            alt={displayName}
+            fill
+            className="object-cover"
+            priority
+          />
+        )}
+        <div className="absolute inset-0 bg-black/50" />
+        <div className="relative z-10 mx-auto max-w-7xl px-4 text-center">
+          <h1 className="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
+            {displayName}
+          </h1>
+        </div>
+      </div>
+      <SectionWrapper>
+        <GalleryGrid images={images} />
+      </SectionWrapper>
+    </>
+  );
+}

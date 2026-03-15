@@ -1,22 +1,23 @@
 import type { MetadataRoute } from "next";
+import { getCategoryKeys } from "@/lib/get-portfolio-images";
 
 const baseUrl = "https://mc-studio-eta.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const locales = ["he", "en"];
-  const routes = [
+  const categories = getCategoryKeys();
+
+  const staticRoutes = [
     "",
     "/portfolio",
-    "/portfolio/events",
-    "/portfolio/family",
-    "/portfolio/pregnancy",
-    "/portfolio/gender_reveal",
-    "/portfolio/marriage_proposal",
     "/contact",
     "/about",
     "/privacy",
     "/terms",
   ];
+
+  const categoryRoutes = categories.map((cat) => `/portfolio/${cat}`);
+  const routes = [...staticRoutes, ...categoryRoutes];
 
   return locales.flatMap((locale) =>
     routes.map((route) => ({

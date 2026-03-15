@@ -11,29 +11,24 @@ import { SectionWrapper } from "@/components/ui/section-wrapper";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import type { PortfolioImage } from "@/lib/portfolio-data";
 
-type Category = PortfolioImage["category"];
-
-const CATEGORY_IDS: Category[] = [
-  "events",
-  "family",
-  "gender_reveal",
-  "marriage_proposal",
-  "pregnancy",
-];
-
 interface Props {
   images: PortfolioImage[];
-  categoryCovers: Record<Category, string>;
+  categoryCovers: Record<string, string>;
+  categories: string[];
+  categoryLabels: Record<string, { en: string; he: string }>;
 }
 
-export default function PortfolioClient({ images, categoryCovers }: Props) {
+export default function PortfolioClient({ images, categoryCovers, categories, categoryLabels }: Props) {
   const t = useTranslations("portfolio");
-  const locale = useLocale();
+  const locale = useLocale() as "en" | "he";
   const [activeCategory, setActiveCategory] = useState("all");
 
-  const categories = [
+  const getCategoryLabel = (id: string): string =>
+    categoryLabels[id]?.[locale] ?? id;
+
+  const filterCategories = [
     { value: "all", label: t("categories.all") },
-    ...CATEGORY_IDS.map((id) => ({ value: id, label: t(`categories.${id}`) })),
+    ...categories.map((id) => ({ value: id, label: getCategoryLabel(id) })),
   ];
 
   const filteredImages =
@@ -41,7 +36,7 @@ export default function PortfolioClient({ images, categoryCovers }: Props) {
       ? images
       : images.filter((img) => img.category === activeCategory);
 
-  const categoryImageCount = (id: Category) =>
+  const categoryImageCount = (id: string) =>
     images.filter((img) => img.category === id).length;
 
   return (
@@ -61,14 +56,14 @@ export default function PortfolioClient({ images, categoryCovers }: Props) {
       {/* Category Cards */}
       <SectionWrapper>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
-          {CATEGORY_IDS.map((id) => (
+          {categories.map((id) => (
             <ScrollReveal key={id}>
               <Link href={`/${locale}/portfolio/${id}`}>
                 <Card className="group overflow-hidden border-0 shadow-md transition-shadow hover:shadow-xl">
                   <div className="relative aspect-[4/3]">
                     <Image
                       src={categoryCovers[id]}
-                      alt={t(`categories.${id}`)}
+                      alt={getCategoryLabel(id)}
                       fill
                       className="object-cover transition-transform duration-300 group-hover:scale-105"
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 20vw"
@@ -76,7 +71,7 @@ export default function PortfolioClient({ images, categoryCovers }: Props) {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                     <div className="absolute bottom-0 p-4">
                       <h3 className="text-xl font-bold text-white">
-                        {t(`categories.${id}`)}
+                        {getCategoryLabel(id)}
                       </h3>
                       <p className="text-sm text-white/70">
                         {t("imageCount", { count: categoryImageCount(id) })}
@@ -93,7 +88,7 @@ export default function PortfolioClient({ images, categoryCovers }: Props) {
       {/* Mixed Gallery */}
       <SectionWrapper>
         <CategoryFilter
-          categories={categories}
+          categories={filterCategories}
           active={activeCategory}
           onChange={setActiveCategory}
         />

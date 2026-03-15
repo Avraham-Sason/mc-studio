@@ -8,17 +8,9 @@ import { SectionWrapper } from "@/components/ui/section-wrapper";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import type { PortfolioImage } from "@/lib/portfolio-data";
 
-const categoryLabels: Record<string, { en: string; he: string }> = {
-  events: { en: "Events", he: "אירועים" },
-  family: { en: "Family", he: "משפחה" },
-  gender_reveal: { en: "Gender Reveal", he: "גילוי מין" },
-  marriage_proposal: { en: "Marriage Proposal", he: "הצעות נישואים" },
-  pregnancy: { en: "Pregnancy", he: "הריון" },
-};
-
 export function PortfolioPreview({ images }: { images: PortfolioImage[] }) {
   const t = useTranslations("portfolioPreview");
-  const locale = useLocale();
+  const locale = useLocale() as "en" | "he";
 
   return (
     <SectionWrapper id="portfolio">
@@ -45,7 +37,7 @@ export function PortfolioPreview({ images }: { images: PortfolioImage[] }) {
                 <div className="group relative">
                   <Image
                     src={img.src}
-                    alt={img.alt[locale as "en" | "he"]}
+                    alt={img.alt[locale]}
                     width={img.width}
                     height={img.height}
                     className="w-full object-cover transition-all duration-300 group-hover:brightness-110"
@@ -53,7 +45,7 @@ export function PortfolioPreview({ images }: { images: PortfolioImage[] }) {
                   />
                   <div className="absolute inset-0 flex items-end bg-gradient-to-t from-black/50 to-transparent opacity-0 transition-opacity group-hover:opacity-100">
                     <span className="p-4 text-sm font-medium text-white">
-                      {categoryLabels[img.category]?.[locale as "en" | "he"] ?? img.category}
+                      {img.alt[locale]}
                     </span>
                   </div>
                 </div>
