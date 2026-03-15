@@ -57,13 +57,13 @@
   },
   "services": {
     "title": "Professional Photography Services",
-    "subtitle": "Professional photographer for events, Brit Milah, families, portraits & headshots — serving Petah Tikva, Elad, Rosh HaAyin & central Israel",
+    "subtitle": "Professional photography for every moment that matters — events, Brit Milah, families, portraits & headshots",
     "items": [
       {
         "id": "events",
         "title": "Event Photography",
         "tagline": "Professional event photographer — every moment captured perfectly",
-        "description": "Professional photographer for small events, private celebrations, Bar Mitzvah, Bat Mitzvah, birthdays, and parties. Event photography in Petah Tikva, Elad, Rosh HaAyin, Bnei Brak, Ramat Gan, and all of central Israel.",
+        "description": "We capture the real, raw, beautiful moments of your special day — Brit, Bar Mitzvah, Bat Mitzvah, birthdays, parties, and private celebrations. We travel anywhere in Israel.",
         "features": [
           "Full-day coverage (up to 12 hours)",
           "Engagement / pre-event session",
@@ -77,7 +77,7 @@
         "id": "brit",
         "title": "Brit Milah Photography",
         "tagline": "Recommended Brit photographer — capturing your most precious moments",
-        "description": "Professional Brit Milah photography at venues and homes. Recommended Brit photographer in Petah Tikva, Elad, Rosh HaAyin, Bnei Brak, Givat Shmuel, Ramat Gan, and all of central Israel.",
+        "description": "Professional Brit Milah photography at venues and homes. We capture every precious moment — from the ceremony to the celebration. We travel anywhere in Israel.",
         "features": [
           "Venue or home Brit photography",
           "Ceremony and celebration coverage",
@@ -91,7 +91,7 @@
         "id": "portraits",
         "title": "Family & Portrait Photography",
         "tagline": "Recommended family photographer — photos you'll treasure forever",
-        "description": "Family photography outdoors and in studio, pregnancy photography, professional portrait photography, business headshots, and professional profile photos. Professional family photographer in Petah Tikva, Elad, Rosh HaAyin, and central Israel.",
+        "description": "Family photography outdoors and in studio, pregnancy photography, professional portrait photography, business headshots, and professional profile photos. We create images that capture who you truly are.",
         "features": [
           "1–2 hour styled session",
           "Professional studio or outdoor location",
@@ -287,24 +287,24 @@
   },
   "about": {
     "title": "About MC Studio — Moshe Chaim Cohen Photography",
-    "subtitle": "Professional photographer based in Petah Tikva — the story behind the lens",
+    "subtitle": "The story behind the lens",
     "bio": [
-      "MC Studio was founded by Moshe Chaim Cohen, a professional photographer based in Petah Tikva, with a simple belief: every moment deserves to be captured perfectly.",
-      "We're not a photography factory — we're a boutique studio that gives every project our full creative attention. Whether it's Brit Milah photography, family portraits in nature, small event photography, or professional headshots — we bring the same level of commitment.",
-      "Our approach combines technical excellence with genuine human connection. We serve clients across Petah Tikva, Elad, Rosh HaAyin, Bnei Brak, Ramat Gan, Givat Shmuel, and all of central Israel — because the best photos happen when people feel comfortable and free to be themselves."
+      "MC Studio was founded by Moshe Chaim Cohen, a professional photographer, with a simple belief: every moment deserves to be captured perfectly.",
+      "We're not a photography factory — we're a boutique studio that gives every project our full creative attention. Whether it's a Brit Milah, family portraits, small events, or professional headshots — we bring the same level of commitment.",
+      "Our approach combines technical excellence with genuine human connection. We travel anywhere in Israel — because the best photos happen when people feel comfortable and free to be themselves."
     ],
     "values": [
       {
         "title": "Perfection, Not Compromise",
-        "description": "We don't deliver 'good enough.' Every image is edited, refined, and perfected until it meets our standards — and yours. Recommended photographer with 100% client satisfaction."
+        "description": "We don't deliver 'good enough.' Every image is edited, refined, and perfected until it meets our standards — and yours."
       },
       {
         "title": "People First",
-        "description": "Behind every lens is a human connection. We take the time to understand your story, your style, and your vision — whether it's a Brit Milah, family portrait, or professional headshot."
+        "description": "Behind every lens is a human connection. We take the time to understand your story, your style, and your vision."
       },
       {
-        "title": "Anywhere in Central Israel",
-        "description": "From Petah Tikva to Rosh HaAyin, from Elad to Ramat Gan — we come to you. A professional event photographer who travels to your location."
+        "title": "Anywhere, Anytime",
+        "description": "Your perfect location shouldn't be limited by geography. We travel anywhere in Israel to capture your moments."
       }
     ]
   },
