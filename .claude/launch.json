@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "mc-studio-dev",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["start-dev.js", "dev", "--port", "3457"],
+      "port": 3457
+    }
+  ]
+}

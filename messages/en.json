@@ -1,0 +1,341 @@
+{
+  "nav": {
+    "logo": "MC Studio",
+    "portfolio": "Portfolio",
+    "services": "Services",
+    "whyUs": "Why Us",
+    "process": "Process",
+    "about": "About",
+    "contact": "Contact",
+    "bookNow": "Book Now",
+    "themeLabel": "Change theme",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu"
+  },
+  "hero": {
+    "headline": "Your Most Beautiful Moments, Captured Forever",
+    "subheadline": "Because you only get one chance to photograph the most important day of your life",
+    "cta1": "Check Availability",
+    "cta2": "View Portfolio",
+    "urgencyBadge": "Summer 2026 — Only 4 Dates Remaining"
+  },
+  "portfolioPreview": {
+    "title": "Through Our Lens",
+    "subtitle": "A glimpse of the moments we've captured",
+    "viewAll": "View Full Gallery →"
+  },
+  "whyUs": {
+    "title": "Why MC Studio?",
+    "subtitle": "What sets us apart from every other photographer",
+    "cards": [
+      {
+        "title": "Zero Compromises",
+        "description": "If we need to reshoot — we reshoot. Your photos must be perfect.",
+        "stat": "100%",
+        "statLabel": "Satisfaction"
+      },
+      {
+        "title": "Edit Until You Love It",
+        "description": "Unlimited revision rounds until every image is exactly as you dreamed.",
+        "stat": "∞",
+        "statLabel": "Revisions"
+      },
+      {
+        "title": "Anywhere in Israel",
+        "description": "From Eilat to Metula — we come to wherever your event is.",
+        "stat": "🇮🇱",
+        "statLabel": "Nationwide"
+      },
+      {
+        "title": "Your Vision, Our Expertise",
+        "description": "A collaborative creative process ensuring the result reflects exactly who you are.",
+        "stat": "1:1",
+        "statLabel": "Personal"
+      }
+    ]
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Professional photography for every moment that matters",
+    "items": [
+      {
+        "id": "weddings",
+        "title": "Weddings & Events",
+        "tagline": "Your love story deserves more than snapshots",
+        "description": "We capture the real, raw, beautiful moments of your wedding day — from the nervous butterflies to the last dance.",
+        "features": [
+          "Full-day coverage (up to 12 hours)",
+          "Engagement / pre-wedding session",
+          "500+ professionally edited images",
+          "Online gallery with download access",
+          "Premium album design (optional)"
+        ],
+        "cta": "Book Your Wedding"
+      },
+      {
+        "id": "portraits",
+        "title": "Portraits",
+        "tagline": "See yourself the way your loved ones see you",
+        "description": "Family portraits, pregnancy sessions, professional headshots — we create images that capture who you truly are.",
+        "features": [
+          "1–2 hour styled session",
+          "Indoor studio or outdoor location",
+          "30+ retouched images",
+          "Multiple outfit changes",
+          "Print-ready high-resolution files"
+        ],
+        "cta": "Book Your Session"
+      },
+      {
+        "id": "commercial",
+        "title": "Commercial & Product",
+        "tagline": "Products that look as good as they perform",
+        "description": "High-quality product photography, brand visuals, and commercial imagery that drives sales and builds brand trust.",
+        "features": [
+          "Product photography (flat lay, lifestyle, packshot)",
+          "Brand identity visuals",
+          "E-commerce optimized images",
+          "Team headshots & corporate",
+          "Social media content packages"
+        ],
+        "cta": "Get a Quote"
+      }
+    ]
+  },
+  "stats": {
+    "items": [
+      { "value": "1200", "suffix": "+", "label": "Sessions Captured" },
+      { "value": "350", "suffix": "+", "label": "Weddings" },
+      { "value": "100", "suffix": "%", "label": "Satisfaction" },
+      { "value": "", "suffix": "", "label": "Nationwide Coverage", "icon": "map-pin" }
+    ]
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Real stories from real couples and families",
+    "items": [
+      {
+        "quote": "We cried when we saw our photos — every single moment was captured beautifully.",
+        "name": "Sarah & Daniel",
+        "eventType": "Wedding",
+        "location": "Tel Aviv"
+      },
+      {
+        "quote": "We finally have a photo that truly reflects who we are as a family. It hangs in our living room.",
+        "name": "The Cohen Family",
+        "eventType": "Family Portrait",
+        "location": "Jerusalem"
+      },
+      {
+        "quote": "The photographer turned every small moment into a huge memory — can't recommend enough.",
+        "name": "Noa & Itai",
+        "eventType": "Wedding",
+        "location": "Jerusalem"
+      },
+      {
+        "quote": "Our product photos increased our online sales by 40%. The quality speaks for itself.",
+        "name": "Maya L.",
+        "eventType": "Product Photography",
+        "location": "Haifa"
+      },
+      {
+        "quote": "I've never felt so beautiful. The pregnancy photos are something I'll treasure forever.",
+        "name": "Yael S.",
+        "eventType": "Pregnancy Portrait",
+        "location": "Herzliya"
+      }
+    ]
+  },
+  "process": {
+    "title": "How It Works",
+    "subtitle": "From first call to final delivery — we've got you covered",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Free Consultation",
+        "description": "Tell us your vision — we'll craft the perfect package tailored to your needs and budget."
+      },
+      {
+        "number": "02",
+        "title": "Plan Your Shoot",
+        "description": "Locations, style, timeline, wardrobe — we plan every detail in advance so you can relax."
+      },
+      {
+        "number": "03",
+        "title": "We Create Magic",
+        "description": "On shoot day, all you need to do is be yourselves. We handle the light, the angles, and the moments."
+      },
+      {
+        "number": "04",
+        "title": "Stunning Results",
+        "description": "Professionally edited photos delivered to your online gallery — plus high-res files for printing."
+      }
+    ]
+  },
+  "featuredWork": {
+    "title": "Featured Stories",
+    "subtitle": "A deeper look at some of our favorite projects",
+    "viewProject": "View Full Story →"
+  },
+  "pricing": {
+    "title": "Investment",
+    "subtitle": "Every project is unique — just like you",
+    "description": "Tell us your vision and we'll create a custom package that fits perfectly. No hidden fees, no surprises.",
+    "categories": [
+      {
+        "name": "Weddings & Events",
+        "startingFrom": "Starting from ₪8,000",
+        "includes": ["Full-day coverage", "500+ edited photos", "Online gallery", "Engagement session"]
+      },
+      {
+        "name": "Portrait Sessions",
+        "startingFrom": "Starting from ₪1,500",
+        "includes": ["1–2 hour session", "30+ retouched images", "Studio or outdoor", "Print-ready files"]
+      },
+      {
+        "name": "Commercial Photography",
+        "startingFrom": "Starting from ₪3,000",
+        "includes": ["Product / brand photography", "Retouched images", "Commercial usage rights", "E-commerce optimized"]
+      }
+    ],
+    "cta": "Get Your Custom Quote in 24 Hours",
+    "note": "All packages include professional editing and unlimited revisions"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know before booking",
+    "items": [
+      {
+        "question": "How much does it cost?",
+        "answer": "Every project is different, and we believe in transparent, custom pricing that matches your exact needs. Most wedding packages start from ₪8,000, portrait sessions from ₪1,500. Contact us for a free consultation and detailed quote within 24 hours — no obligations."
+      },
+      {
+        "question": "Do you travel outside the center of Israel?",
+        "answer": "Absolutely! We cover all of Israel — from Eilat in the south to Metula in the north. Travel is included in most packages. We've shot weddings at Dead Sea resorts, Galilee vineyards, Negev desert locations, and everywhere in between."
+      },
+      {
+        "question": "How long until we get the photos?",
+        "answer": "Typical turnaround is 2–4 weeks for weddings and 1–2 weeks for portrait and commercial sessions. We'll give you a sneak peek of 10–15 images within 48 hours of your shoot so you have something to share immediately."
+      },
+      {
+        "question": "What if we don't like the results?",
+        "answer": "We include unlimited revision rounds in every package. We don't stop until you love every single image. In our 350+ weddings, we've maintained a 100% satisfaction rate — and we intend to keep it that way."
+      },
+      {
+        "question": "Can we get both photos and video?",
+        "answer": "Yes! We work with trusted videography partners and can offer combined photo + video packages. Ask us about bundle pricing during your consultation."
+      },
+      {
+        "question": "What should we prepare before the shoot?",
+        "answer": "We'll send you a detailed preparation guide after booking. For weddings, we'll coordinate with your planner. For portraits, we'll advise on wardrobe, location scouting, and timing for the best light."
+      },
+      {
+        "question": "Do you offer printed albums?",
+        "answer": "Yes, we offer premium hand-crafted albums in various sizes and finishes. Album design is a collaborative process — we create the layout and you approve every page."
+      },
+      {
+        "question": "What is the cancellation policy?",
+        "answer": "Cancellations made 30+ days before the shoot receive a full refund minus deposit. Cancellations within 30 days can be rescheduled to a new date at no additional cost, subject to availability."
+      }
+    ]
+  },
+  "ctaBanner": {
+    "headline": "This Moment Won't Come Again",
+    "subheadline": "Let's make sure it's perfect. Talk to us today and receive a custom quote within 24 hours.",
+    "cta": "Book Now"
+  },
+  "contact": {
+    "title": "Let's Create Something Beautiful",
+    "subtitle": "Fill out the form below and we'll get back to you within 24 hours",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "eventType": "Type of Session",
+      "eventTypeOptions": ["Wedding", "Portrait — Family", "Portrait — Pregnancy", "Portrait — Headshot", "Commercial — Product", "Commercial — Brand", "Other"],
+      "date": "Preferred Date",
+      "message": "Tell us about your vision",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you! We'll be in touch within 24 hours.",
+      "error": "Something went wrong. Please try again or contact us directly."
+    },
+    "directContact": {
+      "title": "Prefer to talk directly?",
+      "phone": "+972-50-123-4567",
+      "email": "hello@mcstudio.co.il",
+      "whatsapp": "Chat on WhatsApp"
+    }
+  },
+  "about": {
+    "title": "About MC Studio",
+    "subtitle": "The story behind the lens",
+    "bio": [
+      "MC Studio was founded with a simple belief: every moment deserves to be captured perfectly.",
+      "We're not a photography factory — we're a boutique studio that gives every project our full creative attention.",
+      "Our approach combines technical excellence with genuine human connection, because the best photos happen when people feel comfortable and free to be themselves."
+    ],
+    "values": [
+      {
+        "title": "Perfection, Not Compromise",
+        "description": "We don't deliver 'good enough.' Every image is edited, refined, and perfected until it meets our standards — and yours."
+      },
+      {
+        "title": "People First",
+        "description": "Behind every lens is a human connection. We take the time to understand your story, your style, and your vision."
+      },
+      {
+        "title": "Anywhere, Anytime",
+        "description": "Your perfect location shouldn't be limited by geography. We travel anywhere in Israel to capture your moments."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Professional photography, zero compromises.",
+    "navigation": "Quick Links",
+    "contactTitle": "Get in Touch",
+    "socialTitle": "Follow Us",
+    "copyright": "© {year} MC Studio. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "common": {
+    "loading": "Loading...",
+    "viewMore": "View More",
+    "back": "Back",
+    "close": "Close",
+    "next": "Next",
+    "previous": "Previous",
+    "of": "of"
+  },
+  "seo": {
+    "home": {
+      "title": "MC Studio — Professional Photography Across Israel",
+      "description": "MC Studio — Professional photography across Israel. Weddings, portraits, commercial. Zero compromises, stunning results."
+    },
+    "portfolio": {
+      "title": "Portfolio — MC Studio Photography",
+      "description": "Browse MC Studio's stunning portfolio — wedding, portrait, and commercial photography from across Israel."
+    },
+    "contact": {
+      "title": "Book Your Session — MC Studio",
+      "description": "Book your photography session with MC Studio. Get a custom quote within 24 hours."
+    },
+    "about": {
+      "title": "About MC Studio — Our Story",
+      "description": "Learn about MC Studio — the premium photography studio behind the lens."
+    }
+  },
+  "portfolio": {
+    "title": "Every Image Tells a Story",
+    "subtitle": "Browse our work across weddings, portraits, and commercial photography",
+    "categories": {
+      "all": "All",
+      "weddings": "Weddings",
+      "portraits": "Portraits",
+      "commercial": "Commercial"
+    },
+    "viewGallery": "View Gallery",
+    "imageCount": "{count} photos"
+  }
+}
