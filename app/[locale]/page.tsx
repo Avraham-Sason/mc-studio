@@ -35,6 +35,9 @@ export async function generateMetadata({
         [alternateLocale]: `https://mc-studio-eta.vercel.app/${alternateLocale}`,
       },
     },
+    verification:{
+      google:"CfjZbp3yup8UaN0Fvqi9QeoIuASrSjAzAFJNVXugR9Y"
+    },
     openGraph: {
       title: t("title"),
       description: t("description"),
