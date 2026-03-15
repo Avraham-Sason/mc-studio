@@ -76,11 +76,11 @@ export async function GET() {
       },
     ],
     contact: {
-      phone: "+972-50-123-4567",
-      email: "hello@mcstudio.co.il",
-      whatsapp: "+972501234567",
+      phone: "+972-54-795-9311",
+      email: "Moshechaim22@gmail.com",
+      whatsapp: "+972547959311",
       website: "https://mcstudio.co.il",
-      instagram: "@mcstudio",
+      instagram: "@mshhkhyymkhn",
     },
     languages: ["Hebrew", "English"],
     stats: {

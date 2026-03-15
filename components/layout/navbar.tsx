@@ -31,7 +31,7 @@ export function Navbar() {
   return (
     <>
       <nav
-        className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/80 backdrop-blur-lg"
+        className="fixed top-0 z-50 w-full border-b border-border/40 bg-background/80 backdrop-blur-lg"
         aria-label="Main navigation"
       >
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 lg:px-8">
@@ -63,14 +63,19 @@ export function Navbar() {
             </Button>
           </div>
 
-          {/* Mobile menu button */}
-          <button
-            className="lg:hidden p-2"
-            onClick={() => setMobileOpen(true)}
-            aria-label={t("menuOpen")}
-          >
-            <Menu className="h-6 w-6" />
-          </button>
+          {/* Mobile: CTA + hamburger */}
+          <div className="flex items-center gap-2 lg:hidden">
+            <Button asChild size="sm" className="rounded-full text-xs">
+              <Link href={`/${locale}/contact`}>{t("bookNow")}</Link>
+            </Button>
+            <button
+              className="p-2"
+              onClick={() => setMobileOpen(true)}
+              aria-label={t("menuOpen")}
+            >
+              <Menu className="h-6 w-6" />
+            </button>
+          </div>
         </div>
       </nav>
 

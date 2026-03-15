@@ -8,8 +8,8 @@ export function LocalBusinessJsonLd({ locale }: { locale: string }) {
         ? "סטודיו צילום מקצועי בכל הארץ. חתונות, פורטרטים, צילום מסחרי."
         : "Premium photography studio offering professional services across Israel. Weddings, portraits, commercial.",
     url: "https://mcstudio.co.il",
-    telephone: "+972-50-123-4567",
-    email: "hello@mcstudio.co.il",
+    telephone: "+972-54-795-9311",
+    email: "Moshechaim22@gmail.com",
     address: {
       "@type": "PostalAddress",
       addressCountry: "IL",
@@ -21,8 +21,8 @@ export function LocalBusinessJsonLd({ locale }: { locale: string }) {
     priceRange: "₪₪₪",
     image: "https://mcstudio.co.il/og/home.jpg",
     sameAs: [
-      "https://instagram.com/mcstudio",
-      "https://facebook.com/mcstudio",
+      "https://www.instagram.com/mshhkhyymkhn",
+      "https://www.facebook.com/share/1766JtmniW/?mibextid=wwXIfr",
     ],
     aggregateRating: {
       "@type": "AggregateRating",

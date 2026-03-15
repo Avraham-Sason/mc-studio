@@ -54,19 +54,19 @@ export function Footer() {
             </h4>
             <div className="mt-3 flex flex-col gap-2 text-sm text-muted-foreground">
               <a
-                href="tel:+972501234567"
+                href="tel:+972547959311"
                 className="flex items-center gap-2 hover:text-foreground transition-colors"
               >
-                <Phone className="h-4 w-4" /> +972-50-123-4567
+                <Phone className="h-4 w-4" /> 054-795-9311
               </a>
               <a
-                href="mailto:hello@mcstudio.co.il"
+                href="mailto:Moshechaim22@gmail.com"
                 className="flex items-center gap-2 hover:text-foreground transition-colors"
               >
-                <Mail className="h-4 w-4" /> hello@mcstudio.co.il
+                <Mail className="h-4 w-4" /> Moshechaim22@gmail.com
               </a>
               <a
-                href="https://wa.me/972501234567"
+                href="https://wa.me/972547959311"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-foreground transition-colors"
@@ -76,7 +76,7 @@ export function Footer() {
             </div>
             <div className="mt-4 flex gap-3">
               <a
-                href="https://instagram.com/mcstudio"
+                href="https://www.instagram.com/mshhkhyymkhn?igsh=eWd1NHVoZXp1NzBq&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -85,7 +85,7 @@ export function Footer() {
                 <Instagram className="h-5 w-5" />
               </a>
               <a
-                href="https://facebook.com/mcstudio"
+                href="https://www.facebook.com/share/1766JtmniW/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"

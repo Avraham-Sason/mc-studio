@@ -56,7 +56,7 @@ export default async function LocaleLayout({
         <ThemeProvider>
           <NextIntlClientProvider locale={locale} messages={messages}>
             <Navbar />
-            <main>{children}</main>
+            <main className="pt-16">{children}</main>
             <Footer />
           </NextIntlClientProvider>
           <Analytics />

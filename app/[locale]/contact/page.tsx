@@ -11,7 +11,7 @@ export default function ContactPage() {
 
   return (
     <>
-      <div className="bg-secondary py-16 lg:py-24">
+      <div className="bg-secondary py-12 lg:py-24">
         <div className="mx-auto max-w-7xl px-4 text-center lg:px-8">
           <h1 className="text-3xl font-bold sm:text-4xl lg:text-5xl">
             {t("title")}
@@ -23,11 +23,11 @@ export default function ContactPage() {
       </div>
 
       <SectionWrapper>
-        <div className="grid gap-10 lg:grid-cols-5">
+        <div className="grid gap-8 lg:grid-cols-5 lg:gap-10">
           {/* Form */}
           <div className="lg:col-span-3">
             <Card className="border-0 shadow-lg">
-              <CardContent className="p-6 lg:p-8">
+              <CardContent className="p-4 sm:p-6 lg:p-8">
                 <ContactForm />
               </CardContent>
             </Card>
@@ -38,12 +38,12 @@ export default function ContactPage() {
             <h2 className="text-xl font-bold">
               {t("directContact.title")}
             </h2>
-            <div className="mt-6 space-y-4">
+            <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-3 lg:grid-cols-1 lg:mt-6 lg:gap-4">
               <a
                 href={`tel:${t("directContact.phone")}`}
                 className="flex items-center gap-3 rounded-xl bg-card p-4 transition-shadow hover:shadow-md"
               >
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10">
                   <Phone className="h-5 w-5 text-primary" />
                 </div>
                 <div>
@@ -56,7 +56,7 @@ export default function ContactPage() {
                 href={`mailto:${t("directContact.email")}`}
                 className="flex items-center gap-3 rounded-xl bg-card p-4 transition-shadow hover:shadow-md"
               >
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10">
                   <Mail className="h-5 w-5 text-primary" />
                 </div>
                 <div>
@@ -66,12 +66,12 @@ export default function ContactPage() {
               </a>
 
               <a
-                href="https://wa.me/972501234567?text=Hi!%20I'm%20interested%20in%20photography%20services%20from%20MC%20Studio."
+                href="https://wa.me/972547959311?text=Hi!%20I'm%20interested%20in%20photography%20services%20from%20MC%20Studio."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 rounded-xl bg-primary p-4 text-primary-foreground transition-shadow hover:shadow-md"
               >
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary-foreground/20">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary-foreground/20">
                   <MessageCircle className="h-5 w-5" />
                 </div>
                 <div>
