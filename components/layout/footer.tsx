@@ -2,12 +2,14 @@
 
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
+import Image from "next/image";
 import { Instagram, Facebook, Mail, Phone, MessageCircle } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 
 export function Footer() {
   const t = useTranslations("footer");
   const nav = useTranslations("nav");
+  const contact = useTranslations("contact");
   const locale = useLocale();
 
   const quickLinks = [
@@ -16,14 +18,28 @@ export function Footer() {
     { label: nav("about"), href: `/${locale}/about` },
     { label: nav("contact"), href: `/${locale}/contact` },
   ];
-
+  const whatsappHref = `https://wa.me/972547959311?text=${encodeURIComponent(
+    t("directContact.whatsappMessage"),
+  )}`;
+  const emailHref = `mailto:${contact("directContact.email")}?subject=${encodeURIComponent(
+    contact("directContact.emailSubject"),
+  )}&body=${encodeURIComponent(contact("directContact.emailBody"))}`;
   return (
     <footer className="border-t border-border bg-card" aria-label="Footer">
       <div className="mx-auto max-w-7xl px-4 py-12 lg:px-8">
         <div className="grid gap-8 md:grid-cols-3">
           {/* Brand */}
           <div>
-            <h3 className="text-lg font-bold">{nav("logo")}</h3>
+            <div className="flex items-center gap-2">
+              <Image
+                src="/images/logo_small.png"
+                alt="MC Studio"
+                width={36}
+                height={36}
+                className="h-9 w-9 object-contain"
+              />
+              <h3 className="text-lg font-bold">{nav("logo")}</h3>
+            </div>
             <p className="mt-2 text-sm text-muted-foreground">
               {t("tagline")}
             </p>
@@ -60,13 +76,13 @@ export function Footer() {
                 <Phone className="h-4 w-4" /> 054-795-9311
               </a>
               <a
-                href="mailto:Moshechaim22@gmail.com"
+                href={emailHref}
                 className="flex items-center gap-2 hover:text-foreground transition-colors"
               >
                 <Mail className="h-4 w-4" /> Moshechaim22@gmail.com
               </a>
               <a
-                href="https://wa.me/972547959311"
+                href={whatsappHref}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-foreground transition-colors"

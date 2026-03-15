@@ -1,6 +1,7 @@
 {
   "nav": {
     "logo": "MC Studio",
+    "home": "Home",
     "portfolio": "Portfolio",
     "services": "Services",
     "whyUs": "Why Us",
@@ -104,8 +105,8 @@
   },
   "stats": {
     "items": [
-      { "value": "1200", "suffix": "+", "label": "Sessions Captured" },
-      { "value": "350", "suffix": "+", "label": "Weddings" },
+      { "value": "450", "suffix": "+", "label": "Sessions Captured" },
+      { "value": "37", "suffix": "+", "label": "Weddings" },
       { "value": "100", "suffix": "%", "label": "Satisfaction" },
       { "value": "", "suffix": "", "label": "Nationwide Coverage", "icon": "map-pin" }
     ]
@@ -264,7 +265,10 @@
       "title": "Prefer to talk directly?",
       "phone": "054-795-9311",
       "email": "Moshechaim22@gmail.com",
-      "whatsapp": "Chat on WhatsApp"
+      "emailSubject": "Photography inquiry from the MC Studio website",
+      "emailBody": "Hi MC Studio,\n\nI'm interested in your photography services and would love to get more details.\n\nThanks,",
+      "whatsapp": "Chat on WhatsApp",
+      "whatsappMessage": "Hi! I'm interested in photography services from MC Studio."
     }
   },
   "about": {
@@ -297,7 +301,34 @@
     "socialTitle": "Follow Us",
     "copyright": "© {year} MC Studio. All rights reserved.",
     "privacy": "Privacy Policy",
-    "terms": "Terms of Service"
+    "terms": "Terms of Service",
+    "directContact": {
+      "whatsappMessage": "Hi! I'm interested in photography services from MC Studio."
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: March 2026",
+    "sections": {
+      "collectTitle": "Information We Collect",
+      "collectText": "We collect information you provide when using our contact forms, including your name, email address, phone number, and message content.",
+      "useTitle": "How We Use Your Information",
+      "useText": "We use the information to respond to your inquiries, provide our photography services, and communicate with you about our services.",
+      "contactTitle": "Contact",
+      "contactText": "For questions about this privacy policy, contact us at Moshechaim22@gmail.com."
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: March 2026",
+    "sections": {
+      "servicesTitle": "Services",
+      "servicesText": "MC Studio provides professional photography services including events, family, pregnancy, gender reveal, and marriage proposal photography across Israel.",
+      "bookingTitle": "Booking & Payment",
+      "bookingText": "A deposit is required to secure your booking date. Full terms will be provided in your service agreement.",
+      "cancellationTitle": "Cancellation",
+      "cancellationText": "Cancellations made 30+ days before the shoot receive a full refund minus deposit. Cancellations within 30 days may be rescheduled subject to availability."
+    }
   },
   "common": {
     "loading": "Loading...",

@@ -1,27 +1,22 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
 
 export default function TermsPage() {
+  const t = useTranslations("terms");
+
   return (
     <SectionWrapper>
       <div className="prose mx-auto max-w-3xl dark:prose-invert">
-        <h1>Terms of Service</h1>
-        <p>Last updated: March 2026</p>
-        <h2>Services</h2>
-        <p>
-          MC Studio provides professional photography services including wedding,
-          portrait, and commercial photography across Israel.
-        </p>
-        <h2>Booking & Payment</h2>
-        <p>
-          A deposit is required to secure your booking date. Full terms will be
-          provided in your service agreement.
-        </p>
-        <h2>Cancellation</h2>
-        <p>
-          Cancellations made 30+ days before the shoot receive a full refund
-          minus deposit. Cancellations within 30 days may be rescheduled subject
-          to availability.
-        </p>
+        <h1>{t("title")}</h1>
+        <p>{t("lastUpdated")}</p>
+        <h2>{t("sections.servicesTitle")}</h2>
+        <p>{t("sections.servicesText")}</p>
+        <h2>{t("sections.bookingTitle")}</h2>
+        <p>{t("sections.bookingText")}</p>
+        <h2>{t("sections.cancellationTitle")}</h2>
+        <p>{t("sections.cancellationText")}</p>
       </div>
     </SectionWrapper>
   );

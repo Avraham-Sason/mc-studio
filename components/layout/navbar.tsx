@@ -2,6 +2,7 @@
 
 import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -10,7 +11,7 @@ import { LanguageSwitcher } from "./language-switcher";
 import { MobileMenu } from "./mobile-menu";
 
 const navLinks = [
-  { key: "portfolio", href: "#portfolio" },
+  { key: "portfolio", href: "/portfolio" },
   { key: "services", href: "#services" },
   { key: "whyUs", href: "#why-us" },
   { key: "process", href: "#process" },
@@ -18,15 +19,17 @@ const navLinks = [
   { key: "contact", href: "/contact" },
 ];
 
+type NavLink = (typeof navLinks)[number];
+
 export function Navbar() {
   const t = useTranslations("nav");
   const locale = useLocale();
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  function getHref(link: { key: string; href: string }) {
-    if (link.href.startsWith("#")) return link.href;
+  const getHref = (link: NavLink) => {
+    if (link.href.startsWith("#")) return `/${locale}${link.href}`;
     return `/${locale}${link.href}`;
-  }
+  };
 
   return (
     <>
@@ -37,9 +40,19 @@ export function Navbar() {
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 lg:px-8">
           <Link
             href={`/${locale}`}
-            className="text-xl font-bold tracking-tight text-foreground"
+            className="flex items-center gap-2"
           >
-            {t("logo")}
+            <Image
+              src="/images/logo_small.png"
+              alt="MC Studio"
+              width={40}
+              height={40}
+              className="h-10 w-10 object-contain"
+              priority
+            />
+            <span className="text-xl font-bold tracking-tight text-foreground">
+              {t("logo")}
+            </span>
           </Link>
 
           {/* Desktop Navigation */}

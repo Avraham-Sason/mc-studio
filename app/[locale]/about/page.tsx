@@ -33,7 +33,7 @@ export default function AboutPage() {
           <ScrollReveal>
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
               <Image
-                src="/images/Events/0Y0A3345.jpeg"
+                src="/images/family/70CFE7C-8A5B-4393-B9A7-C7A1C7E074AB~photo.jpeg"
                 alt="MC Studio photographer behind the scenes"
                 fill
                 className="object-cover"

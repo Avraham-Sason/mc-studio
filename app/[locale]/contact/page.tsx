@@ -8,6 +8,12 @@ import { SectionWrapper } from "@/components/ui/section-wrapper";
 
 export default function ContactPage() {
   const t = useTranslations("contact");
+  const emailHref = `mailto:${t("directContact.email")}?subject=${encodeURIComponent(
+    t("directContact.emailSubject"),
+  )}&body=${encodeURIComponent(t("directContact.emailBody"))}`;
+  const whatsappHref = `https://wa.me/972547959311?text=${encodeURIComponent(
+    t("directContact.whatsappMessage"),
+  )}`;
 
   return (
     <>
@@ -53,7 +59,7 @@ export default function ContactPage() {
               </a>
 
               <a
-                href={`mailto:${t("directContact.email")}`}
+                href={emailHref}
                 className="flex items-center gap-3 rounded-xl bg-card p-4 transition-shadow hover:shadow-md"
               >
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10">
@@ -66,7 +72,7 @@ export default function ContactPage() {
               </a>
 
               <a
-                href="https://wa.me/972547959311?text=Hi!%20I'm%20interested%20in%20photography%20services%20from%20MC%20Studio."
+                href={whatsappHref}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 rounded-xl bg-primary p-4 text-primary-foreground transition-shadow hover:shadow-md"

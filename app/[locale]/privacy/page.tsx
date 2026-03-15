@@ -1,26 +1,22 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
 
 export default function PrivacyPage() {
+  const t = useTranslations("privacy");
+
   return (
     <SectionWrapper>
       <div className="prose mx-auto max-w-3xl dark:prose-invert">
-        <h1>Privacy Policy</h1>
-        <p>Last updated: March 2026</p>
-        <h2>Information We Collect</h2>
-        <p>
-          We collect information you provide when using our contact forms,
-          including your name, email address, phone number, and message content.
-        </p>
-        <h2>How We Use Your Information</h2>
-        <p>
-          We use the information to respond to your inquiries, provide our
-          photography services, and communicate with you about our services.
-        </p>
-        <h2>Contact</h2>
-        <p>
-          For questions about this privacy policy, contact us at
-          hello@mcstudio.co.il.
-        </p>
+        <h1>{t("title")}</h1>
+        <p>{t("lastUpdated")}</p>
+        <h2>{t("sections.collectTitle")}</h2>
+        <p>{t("sections.collectText")}</p>
+        <h2>{t("sections.useTitle")}</h2>
+        <p>{t("sections.useText")}</p>
+        <h2>{t("sections.contactTitle")}</h2>
+        <p>{t("sections.contactText")}</p>
       </div>
     </SectionWrapper>
   );

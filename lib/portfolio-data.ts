@@ -115,6 +115,7 @@ export const heroSlides = [
 
 export const featuredProjects = [
   {
+    category: "events" as const,
     title: { en: "Magical Events", he: "אירועים קסומים" },
     eventType: { en: "Events", he: "אירועים" },
     location: { en: "Israel", he: "ישראל" },

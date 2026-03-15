@@ -31,7 +31,7 @@ export function FeaturedWork() {
             {/* Image grid */}
             <div className="grid grid-cols-2 gap-1 md:grid-cols-4">
               {project.images.map((src, j) => (
-                <div key={j} className="relative aspect-[4/3]">
+                <div key={j} className="relative aspect-4/3">
                   <Image
                     src={src}
                     alt={`${project.title[locale]} - ${j + 1}`}
@@ -68,7 +68,7 @@ export function FeaturedWork() {
               </div>
 
               <Link
-                href={`/${locale}/portfolio/weddings`}
+                href={`/${locale}/portfolio/${project.category}`}
                 className="mt-4 inline-block text-sm font-medium text-primary hover:underline"
               >
                 {t("viewProject")}

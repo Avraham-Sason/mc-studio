@@ -103,7 +103,7 @@ export function HeroSection() {
               size="lg"
               className="rounded-full border-white/30 px-8 text-base  hover:bg-white/10"
             >
-              <Link href="#portfolio">{t("cta2")}</Link>
+              <Link href={`/${locale}/portfolio`}>{t("cta2")}</Link>
             </Button>
           </motion.div>
         </div>
