@@ -14,7 +14,7 @@ export async function generateMetadata({
     description: t("description"),
     alternates: {
       languages: {
-        [locale === "he" ? "en" : "he"]: `https://mcstudio.co.il/${locale === "he" ? "en" : "he"}/portfolio`,
+        [locale === "he" ? "en" : "he"]: `https://mc-studio-eta.vercel.app/${locale === "he" ? "en" : "he"}/portfolio`,
       },
     },
     openGraph: {

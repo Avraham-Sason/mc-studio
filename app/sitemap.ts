@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const baseUrl = "https://mcstudio.co.il";
+const baseUrl = "https://mc-studio-eta.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const locales = ["he", "en"];

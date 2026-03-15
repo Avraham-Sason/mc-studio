@@ -30,18 +30,26 @@ export async function generateMetadata({
     title: t("title"),
     description: t("description"),
     alternates: {
-      canonical: `https://mcstudio.co.il/${locale}`,
+      canonical: `https://mc-studio-eta.vercel.app/${locale}`,
       languages: {
-        [alternateLocale]: `https://mcstudio.co.il/${alternateLocale}`,
+        [alternateLocale]: `https://mc-studio-eta.vercel.app/${alternateLocale}`,
       },
     },
     openGraph: {
       title: t("title"),
       description: t("description"),
-      url: `https://mcstudio.co.il/${locale}`,
+      url: `https://mc-studio-eta.vercel.app/${locale}`,
       siteName: "MC Studio",
       type: "website",
       locale: locale === "he" ? "he_IL" : "en_US",
+      images: [
+        {
+          url: "/images/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: "MC Studio — Professional Photography",
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",

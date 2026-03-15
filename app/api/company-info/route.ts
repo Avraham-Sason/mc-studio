@@ -79,7 +79,7 @@ export async function GET() {
       phone: "+972-54-795-9311",
       email: "Moshechaim22@gmail.com",
       whatsapp: "+972547959311",
-      website: "https://mcstudio.co.il",
+      website: "https://mc-studio-eta.vercel.app",
       instagram: "@mshhkhyymkhn",
     },
     languages: ["Hebrew", "English"],

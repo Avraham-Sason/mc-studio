@@ -7,7 +7,7 @@ export function LocalBusinessJsonLd({ locale }: { locale: string }) {
       locale === "he"
         ? "סטודיו צילום מקצועי בכל הארץ. חתונות, פורטרטים, צילום מסחרי."
         : "Premium photography studio offering professional services across Israel. Weddings, portraits, commercial.",
-    url: "https://mcstudio.co.il",
+    url: "https://mc-studio-eta.vercel.app",
     telephone: "+972-54-795-9311",
     email: "Moshechaim22@gmail.com",
     address: {
@@ -19,7 +19,7 @@ export function LocalBusinessJsonLd({ locale }: { locale: string }) {
       name: "Israel",
     },
     priceRange: "₪₪₪",
-    image: "https://mcstudio.co.il/og/home.jpg",
+    image: "https://mc-studio-eta.vercel.app/og/home.jpg",
     sameAs: [
       "https://www.instagram.com/mshhkhyymkhn",
       "https://www.facebook.com/share/1766JtmniW/?mibextid=wwXIfr",
@@ -112,10 +112,10 @@ export function WebSiteJsonLd() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "MC Studio",
-    url: "https://mcstudio.co.il",
+    url: "https://mc-studio-eta.vercel.app",
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://mcstudio.co.il/search?q={search_term_string}",
+      target: "https://mc-studio-eta.vercel.app/search?q={search_term_string}",
       "query-input": "required name=search_term_string",
     },
   };
