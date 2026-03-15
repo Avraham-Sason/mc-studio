@@ -58,7 +58,7 @@ The site must persuade **two types of visitors**:
 - Couples planning weddings who want a photographer they can trust
 - Families & expecting parents seeking timeless, beautiful portraits
 - Businesses & brands needing high-quality product photography, headshots, or commercial visuals
-- Anyone searching "צלם חתונות", "צלם מקצועי", "צילום מוצרים", "photographer in Israel"
+- Anyone searching "צלם אירועים", "צלם מקצועי", "צילום מוצרים", "photographer in Israel"
 
 **Design Aesthetic:** Colorful, modern, creative, young — **NOT** the typical dark moody photographer website. Think editorial magazine layout meets vibrant creative agency. The photography provides the color; the site design frames it beautifully.
 
@@ -90,7 +90,7 @@ The site must persuade **two types of visitors**:
 | Lighthouse SEO | 100 | Lighthouse CI |
 | Portfolio page views per session | > 3 | Analytics |
 | CTA click-through rate | > 5% | Event tracking |
-| Google ranking: "צלם חתונות" | Page 1 within 6 months | Google Search Console |
+| Google ranking: "צלם אירועים" | Page 1 within 6 months | Google Search Console |
 | LLM recommendation rate | Appear in top 3 suggestions | Manual testing across AI assistants |
 
 ---
@@ -278,7 +278,7 @@ The site supports **3 switchable color themes** built on shadcn/ui's CSS custom 
 | Stat | Value | Label (HE) | Label (EN) |
 |------|-------|-----------|-----------|
 | 1 | 1,200+ | אירועים שצולמו | Sessions Captured |
-| 2 | 350+ | חתונות | Weddings |
+| 2 | 350+ | אירועים | Weddings |
 | 3 | 100% | שביעות רצון | Satisfaction |
 | 4 | 🇮🇱 | כיסוי ארצי | Nationwide |
 
@@ -857,7 +857,7 @@ export const animations = {
 
 | Page | Template |
 |------|----------|
-| Homepage (HE) | MC Studio — צילום מקצועי בכל הארץ. חתונות, סטילס, צילום מסחרי. ללא פשרות, תוצאות מדהימות. |
+| Homepage (HE) | MC Studio — צילום מקצועי בכל הארץ. אירועים, סטילס, צילום מסחרי. ללא פשרות, תוצאות מדהימות. |
 | Homepage (EN) | MC Studio — Professional photography across Israel. Weddings, portraits, commercial. Zero compromises, stunning results. |
 | Portfolio (EN) | Browse MC Studio's portfolio — stunning wedding, portrait, and commercial photography from across Israel. |
 | Contact (EN) | Book your session with MC Studio. Get a custom quote within 24 hours. Professional photography anywhere in Israel. |

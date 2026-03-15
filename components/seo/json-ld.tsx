@@ -5,8 +5,8 @@ export function LocalBusinessJsonLd({ locale }: { locale: string }) {
     name: "MC Studio",
     description:
       locale === "he"
-        ? "סטודיו צילום מקצועי בכל הארץ. חתונות, סטילס, צילום מסחרי."
-        : "Premium photography studio offering professional services across Israel. Weddings, portraits, commercial.",
+        ? "סטודיו צילום מקצועי בכל הארץ. אירועים, סטילס, צילום מסחרי."
+        : "Premium photography studio offering professional services across Israel. Events, portraits, commercial.",
     url: "https://mc-studio-eta.vercel.app",
     telephone: "+972-54-795-9311",
     email: "Moshechaim22@gmail.com",

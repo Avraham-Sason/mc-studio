@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "MC Studio — Professional Photography Across Israel",
   description:
-    "MC Studio — Professional photography across Israel. Weddings, portraits, commercial. Zero compromises, stunning results.",
+    "MC Studio — Professional photography across Israel. Events, portraits, commercial. Zero compromises, stunning results.",
   metadataBase: new URL("https://mc-studio-eta.vercel.app"),
   manifest: "/manifest.json",
   icons: {

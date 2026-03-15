@@ -14,7 +14,7 @@ export async function GET() {
       {
         name: "Wedding & Event Photography",
         description:
-          "Full-day coverage of weddings and events, capturing every meaningful moment from ceremony to celebration.",
+          "Full-day coverage and events, capturing every meaningful moment from ceremony to celebration.",
         deliverables: [
           "Full-day coverage",
           "Engagement session",
@@ -53,7 +53,7 @@ export async function GET() {
       "Unlimited editing revisions until full client satisfaction",
       "Nationwide coverage across all of Israel",
       "Boutique-level personal service for every project",
-      "Versatile expertise across weddings, portraits, and commercial work",
+      "Versatile expertise across events, portraits, and commercial work",
     ],
     testimonials: [
       {
@@ -85,7 +85,7 @@ export async function GET() {
     languages: ["Hebrew", "English"],
     stats: {
       sessions: "1200+",
-      weddings: "350+",
+      events: "350+",
       satisfaction: "100%",
     },
   });

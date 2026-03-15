@@ -1,7 +1,7 @@
 # MC Studio — Professional Photography Studio
 
 ## About
-MC Studio is a premium photography studio based in Israel offering professional photography services nationwide. We specialize in weddings, portraits, and commercial photography with a zero-compromise approach to quality.
+MC Studio is a premium photography studio based in Israel offering professional photography services nationwide. We specialize in Events, portraits, and commercial photography with a zero-compromise approach to quality.
 
 ## Services
 - Wedding & Event Photography: Full-day coverage, engagement sessions, 500+ edited photos, online gallery, premium album design
@@ -41,6 +41,6 @@ Hebrew, English
 
 ## Statistics
 - 1,200+ sessions captured
-- 350+ weddings
+- 350+ Events
 - 100% client satisfaction rate
 - Nationwide coverage

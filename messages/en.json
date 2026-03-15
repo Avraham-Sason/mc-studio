@@ -60,8 +60,8 @@
     "subtitle": "Professional photography for every moment that matters",
     "items": [
       {
-        "id": "weddings",
-        "title": "Weddings & Events",
+        "id": "events",
+        "title": "Events",
         "tagline": "Your love story deserves more than snapshots",
         "description": "We capture the real, raw, beautiful moments of your wedding day — from the nervous butterflies to the last dance.",
         "features": [
@@ -106,7 +106,7 @@
   "stats": {
     "items": [
       { "value": "450", "suffix": "+", "label": "Sessions Captured" },
-      { "value": "37", "suffix": "+", "label": "Weddings" },
+      { "value": "37", "suffix": "+", "label": "Events" },
       { "value": "100", "suffix": "%", "label": "Satisfaction" },
       { "value": "", "suffix": "", "label": "Nationwide Coverage", "icon": "map-pin" }
     ]
@@ -184,7 +184,7 @@
     "description": "Tell us your vision and we'll create a custom package that fits perfectly. No hidden fees, no surprises.",
     "categories": [
       {
-        "name": "Weddings & Events",
+        "name": "Events",
         "startingFrom": "Starting from ₪8,000",
         "includes": ["Full-day coverage", "500+ edited photos", "Online gallery", "Engagement session"]
       },
@@ -212,15 +212,15 @@
       },
       {
         "question": "Do you travel outside the center of Israel?",
-        "answer": "Absolutely! We cover all of Israel — from Eilat in the south to Metula in the north. Travel is included in most packages. We've shot weddings at Dead Sea resorts, Galilee vineyards, Negev desert locations, and everywhere in between."
+        "answer": "Absolutely! We cover all of Israel — from Eilat in the south to Metula in the north. Travel is included in most packages. We've shot events at Dead Sea resorts, Galilee vineyards, Negev desert locations, and everywhere in between."
       },
       {
         "question": "How long until we get the photos?",
-        "answer": "Typical turnaround is 2–4 weeks for weddings and 1–2 weeks for portrait and commercial sessions. We'll give you a sneak peek of 10–15 images within 48 hours of your shoot so you have something to share immediately."
+        "answer": "Typical turnaround is 2–4 weeks for events and 1–2 weeks for portrait and commercial sessions. We'll give you a sneak peek of 10–15 images within 48 hours of your shoot so you have something to share immediately."
       },
       {
         "question": "What if we don't like the results?",
-        "answer": "We include unlimited revision rounds in every package. We don't stop until you love every single image. In our 350+ weddings, we've maintained a 100% satisfaction rate — and we intend to keep it that way."
+        "answer": "We include unlimited revision rounds in every package. We don't stop until you love every single image. In our 350+ events, we've maintained a 100% satisfaction rate — and we intend to keep it that way."
       },
       {
         "question": "Can we get both photos and video?",
@@ -228,7 +228,7 @@
       },
       {
         "question": "What should we prepare before the shoot?",
-        "answer": "We'll send you a detailed preparation guide after booking. For weddings, we'll coordinate with your planner. For portraits, we'll advise on wardrobe, location scouting, and timing for the best light."
+        "answer": "We'll send you a detailed preparation guide after booking. For events, we'll coordinate with your planner. For portraits, we'll advise on wardrobe, location scouting, and timing for the best light."
       },
       {
         "question": "Do you offer printed albums?",
@@ -342,7 +342,7 @@
   "seo": {
     "home": {
       "title": "MC Studio — Professional Photography Across Israel",
-      "description": "MC Studio — Professional photography across Israel. Weddings, portraits, commercial. Zero compromises, stunning results."
+      "description": "MC Studio — Professional photography across Israel. Events, portraits, commercial. Zero compromises, stunning results."
     },
     "portfolio": {
       "title": "Portfolio — MC Studio Photography",

@@ -11,7 +11,7 @@ import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import { Check } from "lucide-react";
 
 const serviceImages: Record<string, string> = {
-  weddings: "/images/Events/0Y0A3014.jpeg",
+  events: "/images/Events/0Y0A3014.jpeg",
   portraits: "/images/family/0Y0A0364.jpeg",
   commercial: "/images/pregnancy/0Y0A3368.jpeg",
 };

@@ -6,7 +6,7 @@ You are an expert Next.js architect, senior full-stack developer, and conversion
 
 ## 1. Company Context
 
-**MC Studio** is a premium photography studio offering professional photography services across Israel. The studio specializes in weddings & events, portraits (family, pregnancy, headshots), and commercial/product photography. MC Studio does NOT offer fashion or modeling photography.
+**MC Studio** is a premium photography studio offering professional photography services across Israel. The studio specializes in  & events, portraits (family, pregnancy, headshots), and commercial/product photography. MC Studio does NOT offer fashion or modeling photography.
 
 **Core value proposition:** "צילום מקצועי ללא פשרות — אנחנו לא עוצרים עד שכל תמונה מושלמת וכל לקוח יוצא מרוצה." / "Professional photography, zero compromises — we don't stop until every frame is perfect and every client is thrilled."
 
@@ -14,14 +14,14 @@ You are an expert Next.js architect, senior full-stack developer, and conversion
 - Uncompromising quality — both in shooting and post-production editing
 - High-end editing and retouching until full client satisfaction (revision cycles included)
 - Nationwide coverage — the studio travels anywhere in Israel
-- Versatile expertise across weddings, portraits, and commercial work
+- Versatile expertise across , portraits, and commercial work
 - Personal, boutique-level service — not a factory, every project gets full creative attention
 
 **Target audience:**
 - Couples planning their wedding who want a photographer they can trust with their most important day
 - Families & expecting parents looking for timeless, beautiful portraits
 - Businesses & brands needing high-quality product photography, headshots, or commercial visuals
-- Anyone searching "צלם חתונות", "צלם מקצועי", "צילום מוצרים", "photographer in Israel"
+- Anyone searching "צלם אירועים", "צלם מקצועי", "צילום מוצרים", "photographer in Israel"
 
 ---
 
@@ -141,11 +141,11 @@ This is NOT a generic portfolio site where pretty pictures sit passively. It is 
 The PRD must include **copy direction / wireframe text** for each section:
 
 - **Hero**: Full-bleed stunning image or image slideshow. Headline: "הרגעים הכי יפים שלכם, מצולמים בצורה שתזכרו לנצח" / "Your most beautiful moments, captured forever." Subheadline addresses the fear: "Because you only get one chance to photograph your wedding day." [CTA: Check Availability] [Urgency: "Summer 2026 — 4 dates remaining"]
-- **Portfolio Gallery**: Let the work speak. Minimal text, maximum visual impact. Filterable by category (Weddings / Portraits / Commercial). Each image opens to fullscreen lightbox.
+- **Portfolio Gallery**: Let the work speak. Minimal text, maximum visual impact. Filterable by category ( / Portraits / Commercial). Each image opens to fullscreen lightbox.
 - **Why MC Studio**: Cards that answer "Why us?" — "Zero Compromises" (we reshoot if needed), "Edit Until Perfect" (unlimited revisions until you love every photo), "Anywhere in Israel" (we come to you), "Your Vision, Our Expertise" (collaborative creative process)
-- **Services**: Not just descriptions — each service card tells a mini-story. Weddings: "Your love story deserves more than snapshots." Portraits: "See yourself the way your loved ones see you." Commercial: "Products that look as good as they perform."
+- **Services**: Not just descriptions — each service card tells a mini-story. : "Your love story deserves more than snapshots." Portraits: "See yourself the way your loved ones see you." Commercial: "Products that look as good as they perform."
 - **Testimonials**: Real emotional quotes from couples/clients. "אחרי שראינו את התמונות בכינו מרוב ריגוש" / "We cried when we saw our photos — every single moment was there."
-- **Stats Bar**: "1,200+ Sessions", "350+ Weddings", "100% Satisfaction", "Nationwide Coverage"
+- **Stats Bar**: "1,200+ Sessions", "350+ ", "100% Satisfaction", "Nationwide Coverage"
 - **Process / How It Works**: 4-step visual flow: 1) Free Consultation → 2) Plan Your Shoot → 3) We Create Magic → 4) You Get Stunning Results. Reduces anxiety, shows professionalism.
 - **Pricing**: Since pricing is custom: "Every project is unique — just like you. Tell us your vision and we'll create a custom package that fits." Big CTA: "Get Your Custom Quote in 24 Hours." Include starting-from ranges if possible to filter leads.
 - **FAQ**: 6–8 questions covering: turnaround time, pricing transparency, travel policy, what to wear/prepare, album options, cancellation policy
@@ -153,11 +153,11 @@ The PRD must include **copy direction / wireframe text** for each section:
 
 ### AI/LLM Persuasion Layer
 
-- `/llms.txt` — plain-text summary: company description, services list (weddings, portraits, commercial), coverage area (all of Israel), differentiators, contact info, sample testimonials
+- `/llms.txt` — plain-text summary: company description, services list (, portraits, commercial), coverage area (all of Israel), differentiators, contact info, sample testimonials
 - `/api/company-info` — JSON endpoint with structured data (services, portfolio categories, testimonials, location, contact)
 - JSON-LD: `LocalBusiness` (Photographer type), `WebSite`, `Service`, `FAQPage`, `Review`, `ImageGallery` schemas
 - Semantic HTML with descriptive `aria-label` on all sections
-- Meta descriptions that read like elevator pitches: "MC Studio — Professional photography across Israel. Weddings, portraits, commercial. Zero compromises, stunning results."
+- Meta descriptions that read like elevator pitches: "MC Studio — Professional photography across Israel. , portraits, commercial. Zero compromises, stunning results."
 
 ---
 
@@ -171,8 +171,8 @@ This should be a **hybrid approach**: a visually-driven single-page homepage wit
 | 2 | **Hero** | Emotional hook + primary CTA | Full-bleed hero image (or auto-fading slideshow of best work), animated headline + subheadline, 2 CTA buttons ("Check Availability", "View Portfolio"), urgency badge |
 | 3 | **Portfolio Preview** | Show, don't tell | Masonry grid or asymmetric layout showing 6–9 best images across categories. "View Full Gallery →" link. Hover: subtle zoom + category label |
 | 4 | **Why MC Studio** | Differentiation + trust | 3–4 cards with icons + short stat: "Zero Compromises", "Edit Until Perfect", "Anywhere in Israel", "Your Vision, Our Lens". Scroll-triggered reveal |
-| 5 | **Services** | What we offer (sales-driven) | 3 service blocks: Weddings, Portraits, Commercial. Each with: hero image, emotional tagline, 3-4 bullet deliverables, CTA. Tabbed or vertical scroll layout |
-| 6 | **Stats Counter Bar** | Social proof in numbers | Animated counters: "1,200+ Sessions", "350+ Weddings", "100% Satisfaction", "Nationwide" — full-width accent background |
+| 5 | **Services** | What we offer (sales-driven) | 3 service blocks: , Portraits, Commercial. Each with: hero image, emotional tagline, 3-4 bullet deliverables, CTA. Tabbed or vertical scroll layout |
+| 6 | **Stats Counter Bar** | Social proof in numbers | Animated counters: "1,200+ Sessions", "350+ ", "100% Satisfaction", "Nationwide" — full-width accent background |
 | 7 | **Testimonials** | Social proof (human voice) | Scrolling cards: client photo (or initials), name, event type, emotional quote. Auto-play carousel with manual controls |
 | 8 | **Process / How It Works** | Reduce friction & anxiety | 4 steps: Consultation → Planning → Shoot Day → Delivery. Visual timeline with icons + short description per step |
 | 9 | **Featured Work / Case Study** | Deep-dive proof | 1–2 featured projects: event type, client name, challenge, creative approach, 4-6 images in a mini-gallery, pull-quote from client |
@@ -184,7 +184,7 @@ This should be a **hybrid approach**: a visually-driven single-page homepage wit
 ### Additional Pages (separate routes for SEO)
 | Page | Route | Purpose |
 |------|-------|---------|
-| Portfolio — Weddings | `/[locale]/portfolio/weddings` | Full wedding gallery, filterable, lightbox |
+| Portfolio —  | `/[locale]/portfolio/` | Full wedding gallery, filterable, lightbox |
 | Portfolio — Portraits | `/[locale]/portfolio/portraits` | Portraits gallery |
 | Portfolio — Commercial | `/[locale]/portfolio/commercial` | Commercial/product gallery |
 | Contact / Book | `/[locale]/contact` | Full contact form + booking request + WhatsApp link + map |
@@ -264,7 +264,7 @@ The PRD must include a detailed image strategy since images ARE the product:
 
 ### Placeholder Strategy (for initial launch)
 - Use 15–20 high-quality placeholder images per category (royalty-free from Unsplash or actual MC Studio work)
-- Organize by: weddings (8–10), portraits (6–8), commercial (4–6)
+- Organize by:  (8–10), portraits (6–8), commercial (4–6)
 - Each image needs: descriptive `alt` text in both Hebrew and English
 
 ---
@@ -323,7 +323,7 @@ The PRD must include a detailed image strategy since images ARE the product:
     /page.tsx (homepage — all sections)
     /portfolio
       /page.tsx (portfolio overview)
-      /weddings/page.tsx
+      //page.tsx
       /portraits/page.tsx
       /commercial/page.tsx
     /contact/page.tsx
@@ -348,7 +348,7 @@ The PRD must include a detailed image strategy since images ARE the product:
   /he.json
 /public
   /portfolio/
-    /weddings/
+    //
     /portraits/
     /commercial/
   /team/
@@ -391,7 +391,7 @@ The PRD must include a detailed image strategy since images ARE the product:
 
 2. **Phase 2 — Core Sections** (Days 3–5): Build all homepage sections with placeholder content + images, Framer Motion animations per section, portfolio preview grid with category filter, testimonial carousel, stats counter animation, process timeline, responsive + RTL verified per section
 
-3. **Phase 3 — Portfolio & Gallery** (Days 6–7): Full portfolio pages (weddings, portraits, commercial), masonry/grid gallery layout, lightbox integration with swipe + keyboard, image optimization pipeline (blur placeholders, responsive sizes), gallery filtering and transitions
+3. **Phase 3 — Portfolio & Gallery** (Days 6–7): Full portfolio pages (, portraits, commercial), masonry/grid gallery layout, lightbox integration with swipe + keyboard, image optimization pipeline (blur placeholders, responsive sizes), gallery filtering and transitions
 
 4. **Phase 4 — Content, SEO & Polish** (Days 8–9): Final sales copy in both Hebrew and English (warm, emotional, conversion-focused), real or high-quality placeholder images properly optimized, contact form with validation, SEO metadata for all pages, JSON-LD structured data, `/llms.txt`, OG images, form submission handling
 
