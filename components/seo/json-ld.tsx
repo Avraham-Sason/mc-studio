@@ -1,7 +1,7 @@
 export function LocalBusinessJsonLd({ locale }: { locale: string }) {
   const data = {
     "@context": "https://schema.org",
-    "@type": "Photographer",
+    "@type": ["LocalBusiness", "Photographer"],
     name: "MC Studio",
     description:
       locale === "he"

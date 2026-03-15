@@ -1,11 +1,11 @@
 "use client";
 
 import { useTranslations, useLocale } from "next-intl";
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import { Check } from "lucide-react";
@@ -22,6 +22,7 @@ const serviceImages: Record<string, string> = {
 export function ServicesSection() {
   const t = useTranslations("services");
   const locale = useLocale();
+  const [activeTab, setActiveTab] = useState(0);
 
   const items = [0, 1, 2].map((i) => ({
     id: t(`items.${i}.id`),
@@ -33,6 +34,8 @@ export function ServicesSection() {
     ),
     cta: t(`items.${i}.cta`),
   }));
+
+  const activeItem = items[activeTab];
 
   return (
     <SectionWrapper id="services">
@@ -48,56 +51,66 @@ export function ServicesSection() {
       </ScrollReveal>
 
       <ScrollReveal>
-        <Tabs defaultValue="weddings" className="mt-12">
-          <TabsList className="mx-auto flex w-fit">
-            {items.map((item) => (
-              <TabsTrigger key={item.id} value={item.id}>
+        <div className="mt-12">
+          {/* Tab buttons */}
+          <div className="mx-auto flex w-fit rounded-lg bg-muted p-1">
+            {items.map((item, i) => (
+              <button
+                key={item.id}
+                onClick={() => setActiveTab(i)}
+                className={`rounded-md px-4 py-2 text-sm font-medium transition-all ${
+                  activeTab === i
+                    ? "bg-background text-foreground shadow-sm"
+                    : "text-muted-foreground hover:text-foreground"
+                }`}
+              >
                 {item.title}
-              </TabsTrigger>
+              </button>
             ))}
-          </TabsList>
+          </div>
 
-          {items.map((item) => (
-            <TabsContent key={item.id} value={item.id} className="mt-8">
-              <Card className="overflow-hidden border-0 shadow-lg">
-                <div className="grid md:grid-cols-2">
-                  <div className="relative aspect-[4/3] md:aspect-auto">
-                    <Image
-                      src={serviceImages[item.id]}
-                      alt={item.title}
-                      fill
-                      className="object-cover"
-                      sizes="(max-width: 768px) 100vw, 50vw"
-                    />
-                  </div>
-                  <CardContent className="flex flex-col justify-center p-6 lg:p-10">
-                    <p className="text-sm font-medium text-primary">
-                      {item.tagline}
-                    </p>
-                    <h3 className="mt-2 text-2xl font-bold">{item.title}</h3>
-                    <p className="mt-3 text-muted-foreground">
-                      {item.description}
-                    </p>
-                    <ul className="mt-5 space-y-2">
-                      {item.features.map((feature, j) => (
-                        <li
-                          key={j}
-                          className="flex items-start gap-2 text-sm"
-                        >
-                          <Check className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                          {feature}
-                        </li>
-                      ))}
-                    </ul>
-                    <Button asChild className="mt-6 w-fit rounded-full">
-                      <Link href={`/${locale}/contact`}>{item.cta}</Link>
-                    </Button>
-                  </CardContent>
+          {/* Tab content */}
+          <div className="mt-8">
+            <Card className="overflow-hidden border-0 shadow-lg">
+              <div className="grid md:grid-cols-2">
+                <div className="relative aspect-[4/3] md:aspect-auto md:min-h-[400px]">
+                  <Image
+                    src={serviceImages[activeItem.id]}
+                    alt={activeItem.title}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
                 </div>
-              </Card>
-            </TabsContent>
-          ))}
-        </Tabs>
+                <CardContent className="flex flex-col justify-center p-6 lg:p-10">
+                  <p className="text-sm font-medium text-primary">
+                    {activeItem.tagline}
+                  </p>
+                  <h3 className="mt-2 text-2xl font-bold">
+                    {activeItem.title}
+                  </h3>
+                  <p className="mt-3 text-muted-foreground">
+                    {activeItem.description}
+                  </p>
+                  <ul className="mt-5 space-y-2">
+                    {activeItem.features.map((feature, j) => (
+                      <li
+                        key={j}
+                        className="flex items-start gap-2 text-sm"
+                      >
+                        <Check className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
+                        {feature}
+                      </li>
+                    ))}
+                  </ul>
+                  <Button asChild className="mt-6 w-fit rounded-full">
+                    <Link href={`/${locale}/contact`}>{activeItem.cta}</Link>
+                  </Button>
+                </CardContent>
+              </div>
+            </Card>
+          </div>
+        </div>
       </ScrollReveal>
     </SectionWrapper>
   );
