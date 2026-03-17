@@ -6,7 +6,6 @@ import Link from "next/link";
 import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
 interface HeroSlide {
   src: string;
   alt: { en: string; he: string };
@@ -56,23 +55,10 @@ export function HeroSection({ slides }: { slides: HeroSlide[] }) {
       {/* Content */}
       <div className="relative z-10 flex h-full items-center justify-center">
         <div className="mx-auto max-w-4xl px-4 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
-            <Badge
-              variant="secondary"
-              className="mb-6 bg-primary/90 text-primary-foreground border-0 px-4 py-1.5 text-sm"
-            >
-              {t("urgencyBadge")}
-            </Badge>
-          </motion.div>
-
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
             className="text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl lg:text-7xl"
           >
             {t("headline")}
@@ -81,7 +67,7 @@ export function HeroSection({ slides }: { slides: HeroSlide[] }) {
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
             className="mx-auto mt-6 max-w-2xl text-lg text-white/80 sm:text-xl"
           >
             {t("subheadline")}
@@ -90,7 +76,7 @@ export function HeroSection({ slides }: { slides: HeroSlide[] }) {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.8 }}
+            transition={{ duration: 0.8, delay: 0.6 }}
             className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row"
           >
             <Button

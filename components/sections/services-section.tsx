@@ -14,7 +14,6 @@ const serviceImages: Record<string, string> = {
   events: "/images/Events/0Y0A3014.jpeg",
   brit: "/images/Events/0Y0A3268.jpeg",
   portraits: "/images/family/0Y0A0364.jpeg",
-  commercial: "/images/pregnancy/0Y0A3368.jpeg",
 };
 
 export function ServicesSection() {
@@ -22,7 +21,7 @@ export function ServicesSection() {
   const locale = useLocale();
   const [activeTab, setActiveTab] = useState(0);
 
-  const itemCount = 4;
+  const itemCount = 3;
   const items = Array.from({ length: itemCount }, (_, i) => i).map((i) => ({
     id: t(`items.${i}.id`),
     title: t(`items.${i}.title`),

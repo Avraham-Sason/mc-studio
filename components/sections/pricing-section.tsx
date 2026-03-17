@@ -12,7 +12,7 @@ export function PricingSection() {
     const t = useTranslations("pricing");
     const locale = useLocale();
 
-    const categories = [0, 1, 2].map((i) => ({
+    const categories = [0, 1].map((i) => ({
         name: t(`categories.${i}.name`),
         startingFrom: t(`categories.${i}.startingFrom`),
         includes: Array.from({ length: 4 }, (_, j) => t(`categories.${i}.includes.${j}`)),

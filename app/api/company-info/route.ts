@@ -35,25 +35,13 @@ export async function GET() {
           "Print-ready files",
         ],
       },
-      {
-        name: "Commercial Photography",
-        description:
-          "Product photography, brand visuals, and commercial imagery for businesses and e-commerce.",
-        deliverables: [
-          "Product photography",
-          "Brand identity visuals",
-          "E-commerce optimized images",
-          "Team headshots",
-          "Social media content",
-        ],
-      },
     ],
     differentiators: [
       "Zero compromises — we reshoot if needed",
       "Unlimited editing revisions until full client satisfaction",
       "Nationwide coverage across all of Israel",
       "Boutique-level personal service for every project",
-      "Versatile expertise across events, portraits, and commercial work",
+      "Versatile expertise across events, portraits, and family photography",
     ],
     testimonials: [
       {
@@ -67,12 +55,6 @@ export async function GET() {
           "We finally have a photo that truly reflects who we are as a family.",
         author: "The Cohen Family",
         event: "Family Portrait, Jerusalem",
-      },
-      {
-        quote:
-          "Our product photos increased our online sales by 40%. The quality speaks for itself.",
-        author: "Maya L.",
-        event: "Product Photography, Haifa",
       },
     ],
     contact: {

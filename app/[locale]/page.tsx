@@ -10,7 +10,6 @@ import { PortfolioPreview } from "@/components/sections/portfolio-preview";
 import { WhyUsSection } from "@/components/sections/why-us-section";
 import { ServicesSection } from "@/components/sections/services-section";
 import { StatsBar } from "@/components/sections/stats-bar";
-import { TestimonialsSection } from "@/components/sections/testimonials-section";
 import { ProcessSection } from "@/components/sections/process-section";
 import { FeaturedWork } from "@/components/sections/featured-work";
 import { PricingSection } from "@/components/sections/pricing-section";
@@ -90,7 +89,6 @@ export default async function HomePage({
       <WhyUsSection />
       <ServicesSection />
       <StatsBar />
-      <TestimonialsSection />
       <ProcessSection />
       <FeaturedWork projectImages={projectImages} />
       <PricingSection />

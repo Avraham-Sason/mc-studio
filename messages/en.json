@@ -15,10 +15,9 @@
   },
   "hero": {
     "headline": "Your Most Beautiful Moments, Captured Forever",
-    "subheadline": "Because you only get one chance to photograph the most important day of your life",
+    "subheadline": "Beautiful Moments of Life",
     "cta1": "Check Availability",
-    "cta2": "View Portfolio",
-    "urgencyBadge": "Summer 2026 — Only 4 Dates Remaining"
+    "cta2": "View Portfolio"
   },
   "portfolioPreview": {
     "title": "Through Our Lens",
@@ -100,20 +99,6 @@
           "Print-ready high-resolution files"
         ],
         "cta": "Book Your Session"
-      },
-      {
-        "id": "commercial",
-        "title": "Commercial & Product Photography",
-        "tagline": "Professional studio photography — products that look as good as they perform",
-        "description": "High-quality product photography, professional business headshots, brand visuals, and commercial imagery that drives sales and builds brand trust.",
-        "features": [
-          "Product photography (flat lay, lifestyle, packshot)",
-          "Brand identity visuals",
-          "E-commerce optimized images",
-          "Team headshots & corporate",
-          "Social media content packages"
-        ],
-        "cta": "Get a Quote"
       }
     ]
   },
@@ -123,42 +108,6 @@
       { "value": "37", "suffix": "+", "label": "Events" },
       { "value": "100", "suffix": "%", "label": "Satisfaction" },
       { "value": "", "suffix": "", "label": "Nationwide Coverage", "icon": "map-pin" }
-    ]
-  },
-  "testimonials": {
-    "title": "What Our Clients Say",
-    "subtitle": "Real stories from real couples and families",
-    "items": [
-      {
-        "quote": "We cried when we saw our photos — every single moment was captured beautifully.",
-        "name": "Sarah & Daniel",
-        "eventType": "Event",
-        "location": "Tel Aviv"
-      },
-      {
-        "quote": "We finally have a photo that truly reflects who we are as a family. It hangs in our living room.",
-        "name": "The Cohen Family",
-        "eventType": "Family Portrait",
-        "location": "Jerusalem"
-      },
-      {
-        "quote": "The photographer turned every small moment into a huge memory — can't recommend enough.",
-        "name": "Noa & Itai",
-        "eventType": "Event",
-        "location": "Jerusalem"
-      },
-      {
-        "quote": "Our product photos increased our online sales by 40%. The quality speaks for itself.",
-        "name": "Maya L.",
-        "eventType": "Product Photography",
-        "location": "Haifa"
-      },
-      {
-        "quote": "I've never felt so beautiful. The pregnancy photos are something I'll treasure forever.",
-        "name": "Yael S.",
-        "eventType": "Pregnancy Portrait",
-        "location": "Herzliya"
-      }
     ]
   },
   "process": {
@@ -206,11 +155,6 @@
         "name": "Portrait Sessions",
         "startingFrom": "Starting from ₪1,500",
         "includes": ["1–2 hour session", "30+ retouched images", "Studio or outdoor", "Print-ready files"]
-      },
-      {
-        "name": "Commercial Photography",
-        "startingFrom": "Starting from ₪3,000",
-        "includes": ["Product / brand photography", "Retouched images", "Commercial usage rights", "E-commerce optimized"]
       }
     ],
     "cta": "Get Your Custom Quote in 24 Hours",
@@ -230,7 +174,7 @@
       },
       {
         "question": "How long until we get the photos?",
-        "answer": "Typical turnaround is 2–4 weeks for events and 1–2 weeks for portrait and commercial sessions. We'll give you a sneak peek of 10–15 images within 48 hours of your shoot so you have something to share immediately."
+        "answer": "Typical turnaround is 2–4 weeks for events and 1–2 weeks for portrait sessions. We'll give you a sneak peek of 10–15 images within 48 hours of your shoot so you have something to share immediately."
       },
       {
         "question": "What if we don't like the results?",
@@ -267,7 +211,7 @@
       "email": "Email Address",
       "phone": "Phone Number",
       "eventType": "Type of Session",
-      "eventTypeOptions": ["Event", "Portrait — Family", "Portrait — Pregnancy", "Portrait — Headshot", "Commercial — Product", "Commercial — Brand", "Other"],
+      "eventTypeOptions": ["Event", "Portrait — Family", "Portrait — Pregnancy", "Portrait — Headshot", "Other"],
       "date": "Preferred Date",
       "message": "Tell us about your vision",
       "submit": "Send Message",
@@ -364,11 +308,11 @@
     },
     "contact": {
       "title": "Book a Professional Photographer | MC Studio — Free Quote in 24h",
-      "description": "Book a professional photographer for events, Brit Milah, family portraits, and commercial photography. MC Studio — serving Petah Tikva, Elad, Rosh HaAyin, and central Israel."
+      "description": "Book a professional photographer for events, Brit Milah, and family portraits. MC Studio — serving Petah Tikva, Elad, Rosh HaAyin, and central Israel."
     },
     "about": {
       "title": "About MC Studio — Moshe Chaim Cohen, Professional Photographer | Israel",
-      "description": "Meet Moshe Chaim Cohen — professional photographer based in Petah Tikva, Israel. MC Studio specializes in event photography, Brit Milah, family portraits, and commercial photography."
+      "description": "Meet Moshe Chaim Cohen — professional photographer based in Petah Tikva, Israel. MC Studio specializes in event photography, Brit Milah, family portraits, and portrait photography."
     },
     "categories": {
       "events": {

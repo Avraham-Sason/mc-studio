@@ -13,7 +13,7 @@ export function LocalBusinessJsonLd({ locale }: { locale: string }) {
     description:
       locale === "he"
         ? "MC Studio — משה חיים כהן, צלם מקצועי מפתח תקווה. צילום אירועים, צילום ברית מילה, צילום משפחות, צילום פורטרט וצילום תדמית מקצועי. צלם מומלץ באלעד, ראש העין, בני ברק, רמת גן, גבעת שמואל וכל המרכז."
-        : "MC Studio — Moshe Chaim Cohen, professional photographer based in Petah Tikva, Israel. Event photography, Brit Milah photography, family portraits, portrait and commercial photography. Serving Elad, Rosh HaAyin, Bnei Brak, Ramat Gan, Givat Shmuel, and all of central Israel.",
+        : "MC Studio — Moshe Chaim Cohen, professional photographer based in Petah Tikva, Israel. Event photography, Brit Milah photography, family portraits, and portrait photography. Serving Elad, Rosh HaAyin, Bnei Brak, Ramat Gan, Givat Shmuel, and all of central Israel.",
     url: baseUrl,
     telephone: "+972-54-795-9311",
     email: "Moshechaim22@gmail.com",
@@ -103,16 +103,6 @@ export function LocalBusinessJsonLd({ locale }: { locale: string }) {
                 : "Portrait & Headshot Photography",
           },
         },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name:
-              locale === "he"
-                ? "צילום מסחרי ומוצרים"
-                : "Commercial & Product Photography",
-          },
-        },
       ],
     },
     knowsLanguage: ["he", "en"],
@@ -192,22 +182,6 @@ export function ServicesJsonLd({ locale }: { locale: string }) {
       serviceType:
         locale === "he" ? "צילום פורטרט" : "Portrait Photography",
     },
-    {
-      "@type": "Service",
-      "@id": `${baseUrl}/#service-commercial`,
-      name:
-        locale === "he"
-          ? "צילום מסחרי ומוצרים"
-          : "Commercial & Product Photography",
-      description:
-        locale === "he"
-          ? "צילום מוצרים, צילום מסחרי, צילום תדמית לעסקים. צילום סטודיו מקצועי לאיקומרס ומותגים."
-          : "Product photography, commercial photography, business branding visuals. Professional studio photography for e-commerce and brands.",
-      provider: { "@type": "LocalBusiness", "@id": `${baseUrl}/#business` },
-      areaServed: { "@type": "Country", name: "Israel" },
-      serviceType:
-        locale === "he" ? "צילום מסחרי" : "Commercial Photography",
-    },
   ];
 
   const data = {
@@ -275,26 +249,6 @@ export function ReviewsJsonLd({ locale }: { locale: string }) {
         locale === "he"
           ? "הצלם הפך כל רגע קטן לזיכרון ענק — ממליצים בלי סוף."
           : "The photographer turned every small moment into a huge memory — can't recommend enough.",
-      reviewRating: {
-        "@type": "Rating",
-        ratingValue: "5",
-        bestRating: "5",
-      },
-      itemReviewed: {
-        "@type": "LocalBusiness",
-        "@id": `${baseUrl}/#business`,
-      },
-    },
-    {
-      "@type": "Review",
-      author: {
-        "@type": "Person",
-        name: locale === "he" ? "מאיה ל." : "Maya L.",
-      },
-      reviewBody:
-        locale === "he"
-          ? "תמונות המוצרים שלנו הגדילו את המכירות האונליין ב-40%."
-          : "Our product photos increased our online sales by 40%.",
       reviewRating: {
         "@type": "Rating",
         ratingValue: "5",
