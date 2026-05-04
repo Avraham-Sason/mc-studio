@@ -16,14 +16,14 @@ export function FAQSection() {
 
     return (
         <SectionWrapper id="faq" className="bg-secondary/50">
-            <ScrollReveal>
+            <ScrollReveal direction="down">
                 <div className="text-center">
                     <h2 className="text-3xl font-bold sm:text-4xl lg:text-5xl">{t("title")}</h2>
                     <p className="mx-auto mt-3 max-w-xl text-muted-foreground">{t("subtitle")}</p>
                 </div>
             </ScrollReveal>
 
-            <ScrollReveal>
+            <ScrollReveal direction="up">
                 <div className="mx-auto mt-12 max-w-3xl">
                     <Accordion dir={direction} className="space-y-3">
                         {items.map((item, i) => (

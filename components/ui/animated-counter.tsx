@@ -1,11 +1,10 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { useInView } from "framer-motion";
 
 export function AnimatedCounter({
   target,
-  duration = 2,
+  duration = 1.8,
   suffix = "",
 }: {
   target: number;
@@ -13,32 +12,61 @@ export function AnimatedCounter({
   suffix?: string;
 }) {
   const ref = useRef<HTMLSpanElement>(null);
-  const isInView = useInView(ref, { once: true });
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(target);
+  const hasAnimated = useRef(false);
+  const frameId = useRef(0);
 
   useEffect(() => {
-    if (!isInView) return;
+    const element = ref.current;
+    if (!element) return;
 
-    let startTime: number | null = null;
-    let raf: number;
+    const animateCounter = () => {
+      if (hasAnimated.current) return;
 
-    function animate(timestamp: number) {
-      if (!startTime) startTime = timestamp;
-      const progress = Math.min((timestamp - startTime) / (duration * 1000), 1);
-      const eased = 1 - Math.pow(1 - progress, 3);
-      setCount(Math.floor(eased * target));
+      hasAnimated.current = true;
+      setCount(0);
 
-      if (progress < 1) {
-        raf = requestAnimationFrame(animate);
-      }
-    }
+      let startTime: number | null = null;
 
-    raf = requestAnimationFrame(animate);
-    return () => cancelAnimationFrame(raf);
-  }, [isInView, target, duration]);
+      const animate = (timestamp: number) => {
+        if (startTime === null) startTime = timestamp;
+
+        const progress = Math.min((timestamp - startTime) / (duration * 1000), 1);
+        const easedProgress = 1 - Math.pow(1 - progress, 3);
+
+        setCount(Math.round(target * easedProgress));
+
+        if (progress < 1) {
+          frameId.current = requestAnimationFrame(animate);
+        }
+      };
+
+      frameId.current = requestAnimationFrame(animate);
+    };
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting) return;
+
+        animateCounter();
+        observer.disconnect();
+      },
+      { threshold: 0.35 },
+    );
+
+    observer.observe(element);
+
+    return () => {
+      observer.disconnect();
+      cancelAnimationFrame(frameId.current);
+    };
+  }, [duration, target]);
 
   return (
-    <span ref={ref}>
+    <span
+      ref={ref}
+      className="inline-block min-w-[3ch] tabular-nums transition-transform duration-300 ease-out"
+    >
       {count.toLocaleString()}
       {suffix}
     </span>

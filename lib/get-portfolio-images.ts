@@ -5,6 +5,10 @@ import type { PortfolioImage } from "./portfolio-data";
 const IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp"]);
 
 const IMAGES_DIR = path.join(process.cwd(), "public", "images");
+const isProduction = process.env.NODE_ENV === "production";
+
+let categoriesCache: { key: string; folder: string }[] | null = null;
+const imagesByCategoryCache = new Map<string, PortfolioImage[]>();
 
 /** Known bilingual alt text for categories. Unknown categories get a generic label. */
 const CATEGORY_ALT: Record<string, { en: string; he: string }> = {
@@ -32,6 +36,8 @@ const IGNORE = new Set([
  * and folder is the actual folder name on disk (may differ in casing).
  */
 export function getCategories(): { key: string; folder: string }[] {
+  if (categoriesCache) return categoriesCache;
+
   let entries: string[];
   try {
     entries = fs.readdirSync(IMAGES_DIR);
@@ -39,7 +45,7 @@ export function getCategories(): { key: string; folder: string }[] {
     return [];
   }
 
-  return entries
+  const categories = entries
     .filter((entry) => {
       if (IGNORE.has(entry)) return false;
       try {
@@ -50,6 +56,12 @@ export function getCategories(): { key: string; folder: string }[] {
     })
     .map((folder) => ({ key: folder.toLowerCase(), folder }))
     .sort((a, b) => a.key.localeCompare(b.key));
+
+  if (isProduction) {
+    categoriesCache = categories;
+  }
+
+  return categories;
 }
 
 /** Get the list of category keys (lowercase). */
@@ -70,11 +82,15 @@ function resolveFolder(categoryKey: string): string | null {
 }
 
 export function getImagesByCategory(category: string): PortfolioImage[] {
-  const folder = resolveFolder(category);
+  const categoryKey = category.toLowerCase();
+  const cachedImages = imagesByCategoryCache.get(categoryKey);
+  if (cachedImages) return cachedImages;
+
+  const folder = resolveFolder(categoryKey);
   if (!folder) return [];
 
   const dir = path.join(IMAGES_DIR, folder);
-  const alt = getAlt(category);
+  const alt = getAlt(categoryKey);
 
   let files: string[];
   try {
@@ -83,19 +99,25 @@ export function getImagesByCategory(category: string): PortfolioImage[] {
     return [];
   }
 
-  return files
+  const images = files
     .filter((f) => IMAGE_EXTENSIONS.has(path.extname(f).toLowerCase()))
     .sort()
     .map((file, index) => ({
-      id: `${category}-${index}`,
+      id: `${categoryKey}-${index}`,
       src: `/images/${folder}/${file}`,
       alt,
-      category,
+      category: categoryKey,
       width: 1200,
       height: 800,
       featured: index === 0,
       priority: index === 0,
     }));
+
+  if (isProduction) {
+    imagesByCategoryCache.set(categoryKey, images);
+  }
+
+  return images;
 }
 
 export function getAllImages(): PortfolioImage[] {

@@ -21,7 +21,7 @@ export function WhyUsSection() {
 
   return (
     <SectionWrapper id="why-us" className="bg-secondary/50">
-      <ScrollReveal>
+      <ScrollReveal direction="down">
         <div className="text-center">
           <h2 className="text-3xl font-bold sm:text-4xl lg:text-5xl">
             {t("title")}
@@ -34,7 +34,11 @@ export function WhyUsSection() {
 
       <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {cards.map((card, i) => (
-          <ScrollReveal key={i} delay={i * 0.1}>
+          <ScrollReveal
+            key={i}
+            delay={i * 0.1}
+            direction={i % 2 === 0 ? "right" : "left"}
+          >
             <Card className="h-full border-0 bg-card shadow-sm transition-shadow hover:shadow-md">
               <CardContent className="flex flex-col items-center p-6 text-center">
                 <div className="flex h-14 w-14 items-center justify-center rounded-full bg-primary/10">

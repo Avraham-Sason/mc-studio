@@ -37,7 +37,7 @@ export function ServicesSection() {
 
   return (
     <SectionWrapper id="services">
-      <ScrollReveal>
+      <ScrollReveal direction="down">
         <div className="text-center">
           <h2 className="text-3xl font-bold sm:text-4xl lg:text-5xl">
             {t("title")}
@@ -48,7 +48,7 @@ export function ServicesSection() {
         </div>
       </ScrollReveal>
 
-      <ScrollReveal>
+      <ScrollReveal direction="zoom">
         <div className="mt-12">
           {/* Tab buttons */}
           <div className="mx-auto flex w-fit rounded-lg bg-muted p-1">
@@ -71,13 +71,16 @@ export function ServicesSection() {
           <div className="mt-8">
             <Card className="overflow-hidden border-0 shadow-lg">
               <div className="grid md:grid-cols-2">
-                <div className="relative aspect-[4/3] md:aspect-auto md:min-h-[400px]">
+                <div className="relative aspect-4/3 md:aspect-auto md:min-h-[400px]">
                   <Image
                     src={serviceImages[activeItem.id]}
                     alt={activeItem.title}
                     fill
                     className="object-cover"
                     sizes="(max-width: 768px) 100vw, 50vw"
+                    loading="lazy"
+                    fetchPriority="low"
+                    quality={70}
                   />
                 </div>
                 <CardContent className="flex flex-col justify-center p-6 lg:p-10">

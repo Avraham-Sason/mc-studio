@@ -48,9 +48,7 @@ export function ContactForm() {
     "idle" | "sending" | "success" | "error"
   >("idle");
 
-  const eventTypes = Array.from({ length: 7 }, (_, i) =>
-    t(`eventTypeOptions.${i}`)
-  );
+  const eventTypes = t.raw("eventTypeOptions") as string[];
 
   const {
     register,
@@ -132,7 +130,7 @@ export function ContactForm() {
           <select
             {...register("eventType")}
             dir={locale === "he" ? "rtl" : "ltr"}
-            className={`flex h-10 w-full appearance-none rounded-md border bg-background bg-[length:16px_16px] bg-no-repeat px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring ltr:bg-[position:right_12px_center] rtl:bg-[position:left_12px_center] ${
+            className={`flex h-10 w-full appearance-none rounded-md border bg-background bg-size-[16px_16px] bg-no-repeat px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring ltr:bg-position-[right_12px_center] rtl:bg-position-[left_12px_center] ${
               errors.eventType ? "border-destructive" : "border-input"
             }`}
             style={{

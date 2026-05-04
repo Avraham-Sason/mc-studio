@@ -30,7 +30,7 @@ export function FeaturedWork({ projectImages }: { projectImages: Record<string, 
 
   return (
     <SectionWrapper id="featured-work">
-      <ScrollReveal>
+      <ScrollReveal direction="down">
         <div className="text-center">
           <h2 className="text-3xl font-bold sm:text-4xl lg:text-5xl">
             {t("title")}
@@ -42,7 +42,7 @@ export function FeaturedWork({ projectImages }: { projectImages: Record<string, 
       </ScrollReveal>
 
       {projects.map((project, i) => (
-        <ScrollReveal key={i}>
+        <ScrollReveal key={i} direction="zoom">
           <div className="mt-12 overflow-hidden rounded-2xl bg-card shadow-lg">
             {/* Image grid */}
             <div className="grid grid-cols-2 gap-1 md:grid-cols-4">
@@ -54,6 +54,9 @@ export function FeaturedWork({ projectImages }: { projectImages: Record<string, 
                     fill
                     className="object-cover"
                     sizes="(max-width: 768px) 50vw, 25vw"
+                    loading="lazy"
+                    fetchPriority="low"
+                    quality={70}
                   />
                 </div>
               ))}

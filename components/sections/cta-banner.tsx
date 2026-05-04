@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations, useLocale } from "next-intl";
+import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
@@ -11,16 +12,22 @@ export function CTABanner() {
 
   return (
     <section
-      className="relative overflow-hidden bg-cover bg-center py-20 lg:py-28"
-      style={{
-        backgroundImage:
-          "url('/images/marriage_proposal/0Y0A1685.jpeg')",
-      }}
+      className="relative overflow-hidden py-20 lg:py-28"
       aria-label="Call to action"
     >
-      <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/60" />
+      <Image
+        src="/images/marriage_proposal/0Y0A1685.jpeg"
+        alt=""
+        fill
+        className="object-cover"
+        sizes="100vw"
+        loading="lazy"
+        fetchPriority="low"
+        quality={70}
+      />
+      <div className="absolute inset-0 bg-linear-to-r from-black/80 to-black/60" />
       <div className="relative z-10 mx-auto max-w-3xl px-4 text-center">
-        <ScrollReveal>
+        <ScrollReveal direction="zoom">
           <h2 className="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
             {t("headline")}
           </h2>

@@ -19,7 +19,7 @@ export function ProcessSection() {
 
   return (
     <SectionWrapper id="process" className="bg-secondary/50">
-      <ScrollReveal>
+      <ScrollReveal direction="down">
         <div className="text-center">
           <h2 className="text-3xl font-bold sm:text-4xl lg:text-5xl">
             {t("title")}
@@ -32,11 +32,15 @@ export function ProcessSection() {
 
       <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
         {steps.map((step, i) => (
-          <ScrollReveal key={i} delay={i * 0.15}>
+          <ScrollReveal
+            key={i}
+            delay={i * 0.15}
+            direction={i % 2 === 0 ? "right" : "left"}
+          >
             <div className="relative text-center">
               {/* Connector line */}
               {i < steps.length - 1 && (
-                <div className="absolute start-1/2 top-7 hidden h-0.5 w-full bg-border lg:block" />
+                <div className="absolute inset-s-1/2 top-7 hidden h-0.5 w-full bg-border lg:block" />
               )}
               <div className="relative mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-primary text-primary-foreground">
                 <step.Icon className="h-6 w-6" />
